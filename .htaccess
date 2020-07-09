@@ -1,0 +1,14 @@
+# rewrite definitions
+RewriteEngine   on
+
+RewriteCond %{HTTP_HOST} ^xn----dtbeqagsesaqx9b.xn--p1ai$
+RewriteRule ^.*$ http://www.dmitry-mokhov.ru/? [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.xn----dtbeqagsesaqx9b.xn--p1ai$
+RewriteRule ^.*$ http://www.dmitry-mokhov.ru/? [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^dmitry-mokhov.ru$
+RewriteRule ^.*$ http://www.dmitry-mokhov.ru/? [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^([^www].*)$
+RewriteRule ^(.*)$ http://www.%1/$1 [L,R=301]

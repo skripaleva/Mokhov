@@ -1,0 +1,1150 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html,body {
+    min-width: 960px;
+    min-height: 100vh
+}
+
+* {
+    box-sizing: border-box
+}
+
+.hide {
+    display: none !important
+}
+
+.show {
+    display: block !important
+}
+
+.center {
+    text-align: center
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px
+}
+
+.container--without-padding {
+    padding: 0 !important
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    left: 0;
+    top: -50px;
+    width: 0;
+    height: 0
+}
+
+.row {
+    display: block;
+    width: 100%
+}
+
+.row::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    visibility: hidden
+}
+
+.col-1 {
+    position: relative;
+    display: block;
+    width: 80px;
+    float: left
+}
+
+.col-2 {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left
+}
+
+.col-3 {
+    position: relative;
+    display: block;
+    width: 240px;
+    float: left
+}
+
+.col-4 {
+    position: relative;
+    display: block;
+    width: 320px;
+    float: left
+}
+
+.col-5 {
+    position: relative;
+    display: block;
+    width: 400px;
+    float: left
+}
+
+.col-6 {
+    position: relative;
+    display: block;
+    width: 480px;
+    float: left
+}
+
+.col-7 {
+    position: relative;
+    display: block;
+    width: 560px;
+    float: left
+}
+
+.col-8 {
+    position: relative;
+    display: block;
+    width: 640px;
+    float: left
+}
+
+.col-9 {
+    position: relative;
+    display: block;
+    width: 720px;
+    float: left
+}
+
+.col-10 {
+    position: relative;
+    display: block;
+    width: 800px;
+    float: left
+}
+
+.col-11 {
+    position: relative;
+    display: block;
+    width: 880px;
+    float: left
+}
+
+.col-12 {
+    position: relative;
+    display: block;
+    width: 960px;
+    float: left
+}
+
+.about-bg {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 680px;
+    background: url("images/blocks/about/mokhov.jpg") center no-repeat
+}
+
+.about-bg--without-padding {
+    padding: 0 !important
+}
+
+.about__header {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font: italic 40px "Georgia",Serif;
+    color: #fff;
+    text-shadow: -2px 1px 0 #c1ab81
+}
+
+.about__header span {
+    display: inline-block;
+    width: 55px
+}
+
+.about__section {
+    margin-left: -40px;
+    width: 480px;
+    background-color: rgba(128,112,93,0.71);
+    padding: 40px
+}
+
+.about__section__text {
+    font: normal 18px/21px "Open Sans","sans-serif";
+    color: #fff
+}
+
+.about__section__text>p {
+    margin-bottom: 16px
+}
+
+.about__section__posts {
+    font-size: 0;
+    text-align: center
+}
+
+.about__section__posts>li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding-top: 14px;
+    font: normal 14px/16px "Open Sans","sans-serif";
+    color: #fff
+}
+
+.about__section__posts>li::before {
+    content: "•";
+    position: absolute;
+    top: 0;
+    left: 50%
+}
+
+.biography {
+    padding: 0 20px 0 40px
+}
+
+.biography__header::before {
+    content: "•";
+    display: block;
+    font: normal 18px/29px "Fontatigo 4F","sans-serif";
+    color: #c1ab81;
+    text-align: center
+}
+
+.biography__header h2 {
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d;
+    text-align: center
+}
+
+.biography__hr {
+    position: relative;
+    margin: 20px 0;
+    height: 4px;
+    background: #557080;
+    border: none
+}
+
+.biography__hr--wide::before {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 100%;
+    width: 100vw;
+    height: 100%;
+    background-color: #557080
+}
+
+.biography__text>p {
+    margin-bottom: 10px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c
+}
+
+.biography__footer>a {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #c1ab81
+}
+
+.biography__footer>a:hover {
+    text-decoration: none
+}
+
+.events {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    padding: 0
+}
+
+.events--without-padding {
+    padding: 0 !important
+}
+
+.events__header {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d;
+    text-align: center
+}
+
+.events__list__item {
+    padding: 0 8px
+}
+
+.events__list__item::before {
+    content: "•";
+    display: block;
+    font: normal 14px/35px "sans-serif";
+    text-align: center;
+    color: #c1ab81
+}
+
+.events__list__item>a {
+    display: block;
+    padding: 10px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c;
+    text-decoration: none
+}
+
+.events__list__item>a:hover {
+    background-color: rgba(193,171,129,0.2)
+}
+
+.events__btn {
+    position: absolute;
+    top: 200px;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-top: 1px solid #80705d;
+    border-left: 1px solid #80705d;
+    padding: 0;
+    background: none
+}
+
+.events__btn:hover {
+    border-width: 3px;
+    border-color: #c1ab81
+}
+
+.events__btn:focus {
+    outline: none
+}
+
+.events__btn--left {
+    left: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.events__btn--right {
+    right: 0;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.feedback {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 50px
+}
+
+.feedback--without-padding {
+    padding: 0 !important
+}
+
+.feedback__header {
+    margin-bottom: 15px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d;
+    text-align: center
+}
+
+.feedback__form {
+    display: block;
+    width: 480px;
+    margin: 0 auto
+}
+
+.feedback__form__field {
+    display: block;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    margin: 2px 0
+}
+
+.feedback__form__field>span {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding-right: 10px;
+    font: lighter 12px/23px "Open Sans","sans-serif";
+    color: #000
+}
+
+.feedback__form__field>input {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    border: 1px solid #c1ab81;
+    font: lighter 12px/23px "Open Sans","sans-serif"
+}
+
+.feedback__form__area {
+    display: block;
+    margin: 2px 0
+}
+
+.feedback__form__area>span {
+    font: lighter 12px/23px "Open Sans","sans-serif";
+    color: #000
+}
+
+.feedback__form__area>textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #c1ab81;
+    font: lighter 12px/19px "Open Sans","sans-serif"
+}
+
+.feedback__form__footer {
+    text-align: center;
+    padding-top: 55px
+}
+
+.feedback__form__footer>button {
+    display: inline-block;
+    padding: 0 20px;
+    border: none;
+    background-color: #d16d4f;
+    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    color: #fff
+}
+
+.feedback__form__footer>button:hover {
+    background-color: #c1ab81
+}
+
+.footer-bg {
+    margin-top: 60px;
+    background-color: #80705d
+}
+
+.footer {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 0;
+    font-size: 0;
+    text-align: center
+}
+
+.footer--without-padding {
+    padding: 0 !important
+}
+
+.footer>li {
+    display: inline-block
+}
+
+.footer>li::after {
+    content: "•";
+    display: inline-block;
+    width: 80px;
+    font: normal 12px/40px "sans-serif";
+    color: #fff
+}
+
+.footer>li:last-of-type::after {
+    display: none
+}
+
+.footer__link {
+    font: lighter 12px/40px "Open Sans","sans-serif";
+    color: #c1ab81;
+    text-decoration: none
+}
+
+.footer__link:hover {
+    text-decoration: underline
+}
+
+.footer__link--bold {
+    font-size: 14px;
+    color: #fff
+}
+
+.nav-menu-bg {
+    background-color: #557080;
+    z-index: 999
+}
+
+.nav-menu {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0
+}
+
+.nav-menu>ul {
+    background-color: #557080;
+    font-size: 0;
+    text-align: center
+}
+
+.nav-menu>ul>li {
+    position: relative;
+    display: inline-block;
+    padding-right: 38px
+}
+
+.nav-menu>ul>li:after {
+    content: "﻿•";
+    position: absolute;
+    top: 0;
+    right: 17px;
+    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    color: white
+}
+
+.nav-menu>ul>li:last-of-type {
+    padding: 0
+}
+
+.nav-menu>ul>li:last-of-type:after {
+    content: none
+}
+
+.nav-menu>ul>li>a {
+    display: block;
+    padding: 0 4px;
+    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    color: white;
+    text-decoration: none
+}
+
+.nav-menu>ul>li>a:hover {
+    color: antiquewhite
+}
+
+.header {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px
+}
+
+.header--without-padding {
+    padding: 0 !important
+}
+
+.header__links {
+    height: 115px;
+    padding-top: 30px
+}
+
+.header__links__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 54px;
+    overflow: hidden;
+    padding: 8px 10px;
+    font-size: 0
+}
+
+.header__links__item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 4px;
+    height: 4px;
+    border-top: 1px solid #557080;
+    border-right: 1px solid #557080
+}
+
+.header__links__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #557080;
+    border-right: 1px solid #557080
+}
+
+.header__links__item:hover {
+    outline: 1px solid #557080
+}
+
+.header__links__item:hover::before,.header__links__item:hover::after {
+    content: none;
+    display: none
+}
+
+.header__links__item>img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    width: 10px;
+    padding-top: 2px
+}
+
+.header__links__item--wide-img>img {
+    width: 33px
+}
+
+.header__links__item>span {
+    display: inline-block;
+    font: lighter 12px/16px "Open Sans","sans-serif";
+    color: #3a3a3a;
+    text-decoration: none
+}
+
+.interaction {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 0;
+    margin-top: 65px
+}
+
+.interaction--without-padding {
+    padding: 0 !important
+}
+
+.interaction__header {
+    margin-bottom: 15px
+}
+
+.interaction__header h2 {
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d;
+    text-align: center
+}
+
+.interaction__text {
+    padding: 0 40px 0 20px
+}
+
+.interaction__text>p {
+    margin-bottom: 10px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c
+}
+
+.interaction__external {
+    padding: 20px 20px 0 160px;
+    font: 600 12px/19px "Open Sans","sans-serif";
+    color: #80705d;
+    text-align: right
+}
+
+.interaction__links {
+    padding: 20px 20px 0
+}
+
+.interaction__links>li {
+    position: relative;
+    padding: 4px 0 4px 20px
+}
+
+.interaction__links>li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    font: normal 14px/19px "sans-serif";
+    color: #c1ab81
+}
+
+.interaction__links>li>a {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #c1ab81;
+    text-decoration: none
+}
+
+.interaction__links>li>a:hover {
+    text-decoration: underline
+}
+
+.my-blog {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 0;
+    margin-top: 65px
+}
+
+.my-blog--without-padding {
+    padding: 0 !important
+}
+
+.my-blog__header {
+    margin-bottom: 15px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #9ca9b4;
+    text-align: center
+}
+
+.my-blog__bg {
+    padding: 25px 40px;
+    background-color: #eff3f6
+}
+
+.my-blog__post {
+    position: relative;
+    padding-right: 300px
+}
+
+.my-blog__post__header {
+    margin-bottom: 25px;
+    font: 600 24px/30px "Open Sans","sans-serif";
+    color: #000
+}
+
+.my-blog__post__text {
+    font: lighter 12px/15px "Open Sans","sans-serif";
+    color: #000
+}
+
+.my-blog__post__text>p {
+    margin-bottom: 12px
+}
+
+.my-blog__post__author {
+    position: absolute;
+    top: 0;
+    right: 160px
+}
+
+.my-blog__post__author__photo {
+    display: block
+}
+
+.my-blog__post__author__link {
+    display: block;
+    padding-right: 10px;
+    font: bold 10px/15px "Verdana","sans-serif";
+    color: #4566b8;
+    text-align: right
+}
+
+.my-blog__post__author__dt {
+    display: block;
+    padding-right: 5px;
+    font: normal 10px/15px "Verdana","sans-serif";
+    color: #000;
+    text-align: right
+}
+
+.my-blog__post__footer__tags {
+    font: lighter 12px/15px "Open Sans","sans-serif";
+    color: #000
+}
+
+.my-blog__post__footer__tags>a {
+    color: #4566b8;
+    text-decoration: none;
+    border-bottom: 1px solid #000
+}
+
+.my-blog__post__footer__tags>a:hover {
+    border-bottom: 1px solid #4566b8
+}
+
+.my-blog__pagination {
+    margin-top: 25px;
+    text-align: center
+}
+
+.my-blog__pagination__pre,.my-blog__pagination__next {
+    position: relative;
+    font: 600 12px/15px "Open Sans","sans-serif";
+    color: #000
+}
+
+.my-blog__pagination__pre::before,.my-blog__pagination__next::before,.my-blog__pagination__pre::after,.my-blog__pagination__next::after {
+    position: absolute;
+    transition: all .2s ease-in-out;
+    top: 2px
+}
+
+.my-blog__pagination__pre {
+    margin-right: 40px
+}
+
+.my-blog__pagination__pre::before {
+    content: "<";
+    right: calc(100% + 5px)
+}
+
+.my-blog__pagination__pre:hover::before {
+    right: calc(100% + 10px)
+}
+
+.my-blog__pagination__next::after {
+    content: ">";
+    left: calc(100% + 5px)
+}
+
+.my-blog__pagination__next:hover::after {
+    left: calc(100% + 10px)
+}
+
+.osteopathy {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 0
+}
+
+.osteopathy--without-padding {
+    padding: 0 !important
+}
+
+.osteopathy__header {
+    padding-top: 55px;
+    padding-bottom: 15px;
+    text-align: center;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #ff965c
+}
+
+.osteopathy__left-panel {
+    padding: 20px;
+    text-align: right
+}
+
+.osteopathy__left-panel__quote {
+    font: italic 21px/28px "Open Sans","sans-serif";
+    color: #c1ab81;
+    quotes: "\00ab" "\00bb"
+}
+
+.osteopathy__left-panel__author {
+    margin-top: 30px
+}
+
+.osteopathy__left-panel__author>small {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #c1ab81
+}
+
+.osteopathy__right-panel {
+    padding: 45px 20px 30px;
+    background-color: #ff965c
+}
+
+.osteopathy__briefly__header {
+    font: italic 21px/28px "Open Sans","sans-serif";
+    color: white
+}
+
+.osteopathy__briefly__text {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #000
+}
+
+.osteopathy__briefly__details {
+    margin-top: 25px;
+    text-align: center
+}
+
+.osteopathy__briefly__details>p {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #000
+}
+
+.osteopathy__briefly__details>a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    padding: 10px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #fff
+}
+
+.osteopathy__briefly__details>a::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    background: url(images/common/logo_IOSPb-compressor.svg) center no-repeat
+}
+
+.osteopathy__briefly__details>a:hover {
+    background-color: #ffa780
+}
+
+.projects {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 0;
+    margin-top: 65px
+}
+
+.projects--without-padding {
+    padding: 0 !important
+}
+
+.projects__header {
+    margin-bottom: 15px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #9ca9b4;
+    text-align: center
+}
+
+.projects__item {
+    margin-bottom: 30px
+}
+
+.projects__item>.col-4 {
+    padding-left: 40px
+}
+
+.projects__item>.col-8 {
+    padding: 0 40px 0 20px
+}
+
+.projects__item__header {
+    margin-bottom: 25px;
+    font: 600 14px/19px "Open Sans","sans-serif";
+    color: #80705d
+}
+
+.projects__item__header>a {
+    font: inherit;
+    color: inherit;
+    text-decoration: none
+}
+
+.projects__item__header>a:hover {
+    text-decoration: underline
+}
+
+.projects__item__info {
+    margin-bottom: 25px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c
+}
+
+.projects__item__logo {
+    display: block;
+    text-align: center
+}
+
+.projects__item__logo>img {
+    display: inline-block
+}
+
+.projects__item__logo__special {
+    position: relative;
+    left: 30px
+}
+
+.projects__item__logo:hover {
+    outline: 1px solid #557080
+}
+
+.rf-osteopathy {
+    display: block;
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 35px;
+    padding: 0
+}
+
+.rf-osteopathy--without-padding {
+    padding: 0 !important
+}
+
+.rf-osteopathy .col-6::before {
+    content: "•";
+    display: block;
+    color: #c1ab81;
+    text-align: center;
+    font: normal 20px/60px "sans-serif"
+}
+
+.rf-osteopathy__article {
+    padding-left: 40px;
+    padding-right: 30px
+}
+
+.rf-osteopathy__article__header {
+    position: relative;
+    padding-left: 70px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d
+}
+
+.rf-osteopathy__article__header::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 50px;
+    height: 74px;
+    background: url(images/common/logo_Minzdrav-compressor.svg) left center no-repeat
+}
+
+.rf-osteopathy__article__text {
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c
+}
+
+.rf-osteopathy__article__text>p {
+    margin-bottom: 19px
+}
+
+.rf-osteopathy__links {
+    padding-left: 20px;
+    padding-right: 40px
+}
+
+.rf-osteopathy__links__header {
+    position: relative;
+    padding-left: 74px;
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d
+}
+
+.rf-osteopathy__links__header::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 50px;
+    height: 74px;
+    background: url(images/common/info-compressor.svg) left center no-repeat
+}
+
+.rf-osteopathy__links__list>li {
+    margin-bottom: 12px
+}
+
+.rf-osteopathy__links__list>li>a {
+    font: 600 14px/19px "Open Sans","sans-serif";
+    color: #80705d;
+    text-decoration: none
+}
+
+.rf-osteopathy__links__list>li>a:hover {
+    color: #c1ab81;
+    text-decoration: underline
+}
+
+.science {
+    padding: 0 40px 0 20px
+}
+
+.science__header {
+    margin-bottom: 20px
+}
+
+.science__header::before {
+    content: "•";
+    display: block;
+    font: normal 18px/29px "Fontatigo 4F","sans-serif";
+    color: #c1ab81;
+    text-align: center
+}
+
+.science__header h2 {
+    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    color: #80705d;
+    text-align: center
+}
+
+.science__text>p {
+    margin-bottom: 10px;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #3c3c3c
+}
+
+.science__text>img {
+    display: block;
+    margin: 20px 0
+}
+
+.science__footer>p {
+    font: 600 14px/19px "Open Sans","sans-serif";
+    color: #80705d
+}
+
+.science__footer__link {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font: lighter 14px/19px "Open Sans","sans-serif";
+    color: #80705d;
+    text-align: center;
+    text-decoration: none
+}
+
+.science__footer__link:hover {
+    text-decoration: underline
+}
+
+.science__footer__link>img {
+    display: block;
+    height: 20px;
+    margin: 25px auto 15px;
+    text-align: center
+}
+
+.science__footer__link--small>img {
+    height: 10px
+}
