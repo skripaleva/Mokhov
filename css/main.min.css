@@ -175,7 +175,7 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     height: 680px;
-    background: url("images/blocks/about/mokhov.jpg") center no-repeat
+    background: url("../images/blocks/about/mokhov.jpg") center no-repeat
 }
 
 .about-bg--without-padding {
@@ -311,13 +311,13 @@ html,body {
     padding: 0 8px
 }
 
-.events__list__item::before {
+/* .events__list__item::before {
     content: "•";
     display: block;
     font: normal 14px/35px "sans-serif";
     text-align: center;
     color: #c1ab81
-}
+} */
 
 .events__list__item>a {
     display: block;
@@ -523,7 +523,9 @@ html,body {
 .nav-menu>ul {
     background-color: #557080;
     font-size: 0;
-    text-align: center
+    /* text-align: center */
+    display: flex;
+    justify-content: space-around
 }
 
 .nav-menu>ul>li {
@@ -566,7 +568,7 @@ html,body {
     box-sizing: border-box;
     width: 960px;
     margin: 0 auto;
-    padding: 0 40px
+    /* padding: 0 40px */
 }
 
 .header--without-padding {
@@ -575,7 +577,10 @@ html,body {
 
 .header__links {
     height: 115px;
-    padding-top: 30px
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header__links__item {
@@ -583,7 +588,7 @@ html,body {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-    height: 54px;
+    /* height: 54px; */
     overflow: hidden;
     padding: 8px 10px;
     font-size: 0
@@ -612,7 +617,8 @@ html,body {
 }
 
 .header__links__item:hover {
-    outline: 1px solid #557080
+    /* outline: 1px solid #557080 */
+    background-color: rgba(193,171,129,0.2);
 }
 
 .header__links__item:hover::before,.header__links__item:hover::after {
@@ -876,17 +882,18 @@ html,body {
 }
 
 .osteopathy__right-panel {
-    padding: 45px 20px 30px;
+    padding: 20px 20px 30px;
     background-color: #ff965c
 }
 
 .osteopathy__briefly__header {
     font: italic 21px/28px "Open Sans","sans-serif";
-    color: white
+    color: white;
+    margin-bottom: 15px;
 }
 
 .osteopathy__briefly__text {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/24px "Open Sans","sans-serif";
     color: #000
 }
 
@@ -896,13 +903,13 @@ html,body {
 }
 
 .osteopathy__briefly__details>p {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 12px/19px "Open Sans","sans-serif";
     color: #000
 }
 
 .osteopathy__briefly__details>a {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
     border: 1px solid #fff;
     padding: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
@@ -916,7 +923,7 @@ html,body {
     height: 17px;
     margin-bottom: -5px;
     margin-right: 10px;
-    background: url(images/common/logo_IOSPb-compressor.svg) center no-repeat
+    background: url(../images/common/logo_IOSPb-compressor.svg) center no-repeat
 }
 
 .osteopathy__briefly__details>a:hover {
@@ -1037,7 +1044,7 @@ html,body {
     left: 0;
     width: 50px;
     height: 74px;
-    background: url(images/common/logo_Minzdrav-compressor.svg) left center no-repeat
+    background: url(../images/common/logo_Minzdrav-compressor.svg) left center no-repeat
 }
 
 .rf-osteopathy__article__text {
@@ -1068,7 +1075,7 @@ html,body {
     left: 0;
     width: 50px;
     height: 74px;
-    background: url(images/common/info-compressor.svg) left center no-repeat
+    background: url(../images/common/info-compressor.svg) left center no-repeat
 }
 
 .rf-osteopathy__links__list>li {
