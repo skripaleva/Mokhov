@@ -137,7 +137,8 @@ html,body {
     position: relative;
     display: block;
     width: 640px;
-    float: left
+    float: left;
+    text-decoration: none;
 }
 
 .col-9 {
@@ -238,13 +239,13 @@ html,body {
     padding: 0 20px 0 40px
 }
 
-.biography__header::before {
+/* .biography__header::before {
     content: "•";
     display: block;
     font: normal 18px/29px "Fontatigo 4F","sans-serif";
     color: #c1ab81;
     text-align: center
-}
+} */
 
 .biography__header h2 {
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
@@ -523,9 +524,8 @@ html,body {
 .nav-menu>ul {
     background-color: #557080;
     font-size: 0;
-    /* text-align: center */
-    display: flex;
-    justify-content: space-around
+    text-align: center;
+    display: block;
 }
 
 .nav-menu>ul>li {
@@ -568,7 +568,7 @@ html,body {
     box-sizing: border-box;
     width: 960px;
     margin: 0 auto;
-    /* padding: 0 40px */
+    padding: 0 40px;
 }
 
 .header--without-padding {
@@ -588,7 +588,7 @@ html,body {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-    /* height: 54px; */
+    height: 64px;
     overflow: hidden;
     padding: 8px 10px;
     font-size: 0
@@ -956,7 +956,10 @@ html,body {
 }
 
 .projects__item>.col-4 {
-    padding-left: 40px
+    padding-left: 40px;
+}
+.projects__item--OMokhova>.col-4 {
+    padding-top: 15px;
 }
 
 .projects__item>.col-8 {
@@ -985,9 +988,17 @@ html,body {
     color: #3c3c3c
 }
 
+.projects__item__info a {
+    color: #3c3c3c;
+}
+
 .projects__item__logo {
     display: block;
-    text-align: center
+    text-align: center;
+}
+
+.projects__item--ROsMagazine>.col-4 {
+    padding-top: 20px;
 }
 
 .projects__item__logo>img {
@@ -1017,13 +1028,13 @@ html,body {
     padding: 0 !important
 }
 
-.rf-osteopathy .col-6::before {
+/* .rf-osteopathy .col-6::before {
     content: "•";
     display: block;
     color: #c1ab81;
     text-align: center;
     font: normal 20px/60px "sans-serif"
-}
+} */
 
 .rf-osteopathy__article {
     padding-left: 40px;
@@ -1034,7 +1045,8 @@ html,body {
     position: relative;
     padding-left: 70px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
-    color: #80705d
+    color: #80705d;
+    margin-bottom: 15px;
 }
 
 .rf-osteopathy__article__header::before {
@@ -1065,7 +1077,8 @@ html,body {
     position: relative;
     padding-left: 74px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
-    color: #80705d
+    color: #80705d;
+    margin-bottom: 15px;
 }
 
 .rf-osteopathy__links__header::before {
@@ -1101,13 +1114,13 @@ html,body {
     margin-bottom: 20px
 }
 
-.science__header::before {
+/* .science__header::before {
     content: "•";
     display: block;
     font: normal 18px/29px "Fontatigo 4F","sans-serif";
     color: #c1ab81;
     text-align: center
-}
+} */
 
 .science__header h2 {
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
