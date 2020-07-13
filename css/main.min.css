@@ -930,6 +930,13 @@ html,body {
     background-color: #ffa780
 }
 
+.projects__pottern {
+    background: url(../images/common/pattern.png) #f8f8f8;
+    width: 1188px;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .projects {
     display: block;
     box-sizing: border-box;
@@ -937,7 +944,8 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
-    margin-top: 65px
+    margin-top: 65px;
+    background-color: #fff;
 }
 
 .projects--without-padding {
