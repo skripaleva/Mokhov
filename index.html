@@ -11,23 +11,24 @@
     <link href="js/lib/slick/slick.css" rel="stylesheet">
     <link href="css/main.min.css" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png"/>
-<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png"/>
-<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png"/>
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="194x194" href="favicon-194x194.png"/>
-<link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-<link rel="manifest" href="manifest.json"/>
-<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5"/>
-<meta name="msapplication-TileColor" content="#b91d47"/>
-<meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
-<meta name="theme-color" content="#ffffff"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="194x194" href="favicon-194x194.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5"/>
+    <meta name="msapplication-TileColor" content="#b91d47"/>
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
     <!--include svg/icons-->
@@ -73,26 +74,28 @@
       </div>
     </div>
     <!-- About Mokhov -->
-    <div class="about-bg">
-      <article class="about">
-        <header class="about__header">
-          <h1>Дмитрий Евгеньевич<br><span></span>Мохов</h1>
-        </header>
-        <section class="about__section">
-          <div class="about__section__text">
-            <p>﻿Основатель и руководитель Института остеопатии Санкт-Петербурга.</p>
-            <p>Основатель и руководитель семьи клиник «Институт остеопатии Мохова».</p>
-            <p>Главный внештатный специалист по остеопатии Минздрава РФ.</p>
-            <p>Президент Российской остеопатической ассоциации.</p>
-            <p>Главный редактор Российского остеопатического журнала.</p>
-          </div>
-          <ul class="about__section__posts">
-            <li>﻿ доктор медицинских наук, профессор</li>
-            <li>практикующий врач-остеопат</li>
-            <li>преподаватель высшей школы</li>
-          </ul>
-        </section>
-      </article>
+    <div class="about__bg-color">
+      <div class="about-bg">
+        <article class="about">
+          <header class="about__header">
+            <h1>Дмитрий Евгеньевич<br><span></span>Мохов</h1>
+          </header>
+          <section class="about__section">
+            <div class="about__section__text">
+              <p>﻿Основатель и руководитель Института остеопатии Санкт-Петербурга.</p>
+              <p>Основатель и руководитель семьи клиник «Институт остеопатии Мохова».</p>
+              <p>Главный внештатный специалист по остеопатии Минздрава РФ.</p>
+              <p>Президент Российской остеопатической ассоциации.</p>
+              <p>Главный редактор Российского остеопатического журнала.</p>
+            </div>
+            <ul class="about__section__posts">
+              <li>﻿ доктор медицинских наук, профессор</li>
+              <li>практикующий врач-остеопат</li>
+              <li>преподаватель высшей школы</li>
+            </ul>
+          </section>
+        </article>
+      </div>
     </div>
     <!-- Block events-->
     <section class="events">
@@ -630,6 +633,7 @@
         <label class="feedback__form__area"><span>Текст обращения: </span>
           <textarea rows="9" name="text" maxlength="500" required></textarea>
         </label>
+        <div class="g-recaptcha" data-sitekey="6LdeRbEZAAAAAL_i4YtNJ37WNRib_QzXOEcx0B9w" style="margin-top:1em";></div>
         <div class="feedback__form__footer">
           <button type="submit">отправить</button>
         </div>

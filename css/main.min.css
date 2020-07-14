@@ -169,6 +169,12 @@ html,body {
     float: left
 }
 
+.about__bg-color {
+    background-color: #557080;
+    height: 587px;
+
+}
+
 .about-bg {
     display: block;
     box-sizing: border-box;
@@ -329,7 +335,8 @@ html,body {
 }
 
 .events__list__item>a:hover {
-    background-color: rgba(193,171,129,0.2)
+    background-color: rgba(193,171,129,0.2);
+    transition: 0.2s;
 }
 
 .events__btn {
@@ -346,7 +353,8 @@ html,body {
 
 .events__btn:hover {
     border-width: 3px;
-    border-color: #c1ab81
+    border-color: #c1ab81;
+    transition: 0.2s;
 }
 
 .events__btn:focus {
@@ -453,7 +461,9 @@ html,body {
 }
 
 .feedback__form__footer>button:hover {
-    background-color: #c1ab81
+    background-color: #c1ab81;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .footer-bg {
@@ -499,7 +509,8 @@ html,body {
 }
 
 .footer__link:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 .footer__link--bold {
@@ -560,7 +571,8 @@ html,body {
 }
 
 .nav-menu>ul>li>a:hover {
-    color: antiquewhite
+    color: antiquewhite;
+    transition: 0.2s;
 }
 
 .header {
@@ -619,6 +631,7 @@ html,body {
 .header__links__item:hover {
     /* outline: 1px solid #557080 */
     background-color: rgba(193,171,129,0.2);
+    transition: 0.2s;
 }
 
 .header__links__item:hover::before,.header__links__item:hover::after {
@@ -711,7 +724,8 @@ html,body {
 }
 
 .interaction__links>li>a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 .my-blog {
@@ -798,7 +812,8 @@ html,body {
 }
 
 .my-blog__post__footer__tags>a:hover {
-    border-bottom: 1px solid #4566b8
+    border-bottom: 1px solid #4566b8;
+    transition: 0.2s;
 }
 
 .my-blog__pagination {
@@ -927,12 +942,13 @@ html,body {
 }
 
 .osteopathy__briefly__details>a:hover {
-    background-color: #ffa780
+    background-color: #ffa780;
+    transition: 0.2s;
 }
 
 .projects__pottern {
     background: url(../images/common/pattern.png) #f8f8f8;
-    width: 1188px;
+    width: auto;
     height: 100%;
     margin: 0 auto;
 }
@@ -987,7 +1003,8 @@ html,body {
 }
 
 .projects__item__header>a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 .projects__item__info {
@@ -1019,7 +1036,7 @@ html,body {
 }
 
 .projects__item__logo:hover {
-    outline: 1px solid #557080
+    outline: 1px solid #557080;
 }
 
 .rf-osteopathy {
@@ -1111,7 +1128,8 @@ html,body {
 
 .rf-osteopathy__links__list>li>a:hover {
     color: #c1ab81;
-    text-decoration: underline
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 .science {
@@ -1163,7 +1181,8 @@ html,body {
 }
 
 .science__footer__link:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    transition: 0.2s;
 }
 
 .science__footer__link>img {
