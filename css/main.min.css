@@ -54,7 +54,8 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px
+    padding: 0 40px;
+    margin-top: 65px;
 }
 
 .container--without-padding {
@@ -387,7 +388,7 @@ html,body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
-    margin-top: 50px;
+    margin-top: 65px;
     background: url(../images/common/frame.svg) center 5px no-repeat;
     background-size: 600px auto;
 }
@@ -456,7 +457,7 @@ html,body {
 
 .feedback__form__footer {
     text-align: center;
-    padding-top: 55px
+    padding-top: 35px;
 }
 
 .feedback__form__footer>button {
@@ -882,7 +883,7 @@ html,body {
 }
 
 .osteopathy__header {
-    padding-top: 55px;
+    padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
@@ -1070,7 +1071,7 @@ html,body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
-    margin-top: 35px;
+    margin-top: 65px;
     padding: 0
 }
 
