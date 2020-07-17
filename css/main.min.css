@@ -29,7 +29,7 @@ table {
 }
 
 html,body {
-    min-width: 960px;
+    /* min-width: 960px; */
     min-height: 100vh
 }
 
@@ -52,9 +52,10 @@ html,body {
 .container {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px
+    padding: 0 40px;
+    margin-top: 65px;
 }
 
 .container--without-padding {
@@ -108,7 +109,7 @@ html,body {
 .col-4 {
     position: relative;
     display: block;
-    width: 320px;
+    width: 33%;
     float: left
 }
 
@@ -122,7 +123,7 @@ html,body {
 .col-6 {
     position: relative;
     display: block;
-    width: 480px;
+    width: 50%;
     float: left
 }
 
@@ -136,7 +137,7 @@ html,body {
 .col-8 {
     position: relative;
     display: block;
-    width: 640px;
+    width: 66%;
     float: left;
     text-decoration: none;
 }
@@ -169,20 +170,26 @@ html,body {
     float: left
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .about__bg-color {
     background-color: #557080;
-    height: 587px;
-
+    height: 590px;
+    margin-bottom: 90px;
 }
 
 .about-bg {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     height: 680px;
-    background: url("../images/blocks/about/mokhov.jpg") center no-repeat
+    background: url("../images/blocks/about/mokhov.jpg") center top no-repeat;
 }
 
 .about-bg--without-padding {
@@ -205,7 +212,7 @@ html,body {
 
 .about__section {
     margin-left: -40px;
-    width: 480px;
+    /* width: 480px; */
     background-color: rgba(128,112,93,0.71);
     padding: 40px
 }
@@ -295,7 +302,7 @@ html,body {
 .events {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     position: relative;
@@ -378,10 +385,12 @@ html,body {
 .feedback {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
-    margin-top: 50px
+    margin-top: 65px;
+    background: url(../images/common/frame.svg) center 5px no-repeat;
+    background-size: 600px auto;
 }
 
 .feedback--without-padding {
@@ -389,7 +398,7 @@ html,body {
 }
 
 .feedback__header {
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
     text-align: center
@@ -448,7 +457,7 @@ html,body {
 
 .feedback__form__footer {
     text-align: center;
-    padding-top: 55px
+    padding-top: 35px;
 }
 
 .feedback__form__footer>button {
@@ -472,9 +481,10 @@ html,body {
 }
 
 .footer {
-    display: block;
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
@@ -487,7 +497,7 @@ html,body {
 }
 
 .footer>li {
-    display: inline-block
+    display: flex;
 }
 
 .footer>li::after {
@@ -527,7 +537,7 @@ html,body {
     position: relative;
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
     padding: 0 0
 }
@@ -535,8 +545,8 @@ html,body {
 .nav-menu>ul {
     background-color: #557080;
     font-size: 0;
-    text-align: center;
-    display: block;
+    justify-content: center;
+    display: flex;
 }
 
 .nav-menu>ul>li {
@@ -576,9 +586,9 @@ html,body {
 }
 
 .header {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
 }
@@ -661,7 +671,7 @@ html,body {
 .interaction {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
@@ -684,6 +694,10 @@ html,body {
 
 .interaction__text {
     padding: 0 40px 0 20px
+}
+
+.interaction__img {
+    width: 100%;
 }
 
 .interaction__text>p {
@@ -858,7 +872,7 @@ html,body {
 .osteopathy {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     padding: 0
@@ -869,7 +883,7 @@ html,body {
 }
 
 .osteopathy__header {
-    padding-top: 55px;
+    padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
@@ -938,7 +952,7 @@ html,body {
     height: 17px;
     margin-bottom: -5px;
     margin-right: 10px;
-    background: url(../images/common/logo_IOSPb-compressor.svg) center no-repeat
+    background: url(../images/common/logo_IOSPb-compressor.svg) center no-repeat;
 }
 
 .osteopathy__briefly__details>a:hover {
@@ -956,7 +970,7 @@ html,body {
 .projects {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
@@ -1022,8 +1036,20 @@ html,body {
     text-align: center;
 }
 
+.projects__item--IOSPb img:first-child {
+    width: 80%;
+}
+
+.projects__item--IOSPb img:last-child {
+    width: 70%;
+}
+
 .projects__item--ROsMagazine>.col-4 {
     padding-top: 20px;
+}
+
+.projects__item--ROsMagazine>.col-8>img {
+    width: 100%;
 }
 
 .projects__item__logo>img {
@@ -1042,10 +1068,10 @@ html,body {
 .rf-osteopathy {
     display: block;
     box-sizing: border-box;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
-    margin-top: 35px;
+    margin-top: 65px;
     padding: 0
 }
 
@@ -1162,7 +1188,8 @@ html,body {
 
 .science__text>img {
     display: block;
-    margin: 20px 0
+    margin: 20px 0;
+    width: 100%;
 }
 
 .science__footer>p {
