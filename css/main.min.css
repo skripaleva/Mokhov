@@ -1213,6 +1213,11 @@ html,body {
     color: #80705d
 }
 
+.science__footer__link-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .science__footer__link {
     display: inline-block;
     vertical-align: top;
