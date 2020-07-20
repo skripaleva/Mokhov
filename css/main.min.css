@@ -1224,7 +1224,7 @@ html,body {
 }
 
 .science__footer__link:hover {
-    text-decoration: underline;
+    background-color: rgba(193,171,129,0.2);
     transition: 0.3s;
 }
 
