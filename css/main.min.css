@@ -390,7 +390,7 @@ html,body {
     padding: 0 40px;
     margin-top: 65px;
     background: url(../images/common/frame1.svg) center 55px no-repeat;
-    background-size: 550px auto;
+    background-size: 57% 79%;
 }
 
 .feedback--without-padding {
@@ -478,7 +478,7 @@ html,body {
 .g-recaptcha {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .footer-bg {
