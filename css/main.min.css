@@ -71,7 +71,7 @@ html,body {
     height: 0
 }
 
-.row {
+.row, .projects__row {
     display: flex;
     width: 100%
 }
@@ -997,7 +997,8 @@ html,body {
 }
 
 .projects__item {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    text-decoration: none;
 }
 
 .projects__item:hover {
@@ -1248,7 +1249,6 @@ html,body {
 @media (max-width: 900px) {
     .header {
         padding: 0 20px;
-
     }
 
     .header__links {
@@ -1258,12 +1258,6 @@ html,body {
         box-sizing: border-box;
     }
 
-    .header__links__item {
-        /*display: block;
-        float:left;
-        min-width: 158px;*/
-    }
-
     .header__links__item:nth-child(2n+1) {
         min-width: 159px;
     }
@@ -1271,19 +1265,53 @@ html,body {
     .header__links__item:nth-child(2n) {
         min-width: 115px;
     }
+
     .header__links__item:nth-child(5) {
         min-width: 173px;
     }
+
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 20px;
+    }
 }
+
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
     }
+
     .col-6 {
-        width: 90%;
+        width: 100%;
+        margin: 0 auto;
     }
+
     .osteopathy__left-panel {
         text-align: center;
+    }
+
+    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .osteopathy__right-panel {
+        margin-top: 45px;
+    }
+
+    .osteopathy__briefly__header h3 {
+        text-align: center;
+    }
+
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 24px;
+    }
+
+    .rf-osteopathy__article__header::before, .rf-osteopathy__links__header::before {
+        top: -10px;
+    }
+
+    .rf-osteopathy__links {
+        margin-top: 45px;
     }
 }
 
