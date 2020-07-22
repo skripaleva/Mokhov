@@ -71,8 +71,8 @@ html,body {
     height: 0
 }
 
-.row {
-    display: block;
+.row, .projects__row {
+    display: flex;
     width: 100%
 }
 
@@ -338,7 +338,8 @@ html,body {
     padding: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
     color: #3c3c3c;
-    text-decoration: none
+    text-decoration: none;
+    word-wrap: break-word;
 }
 
 .events__list__item>a:hover {
@@ -387,15 +388,15 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     margin-top: 65px;
     background: url(../images/common/frame1.svg) center 55px no-repeat;
-    background-size: 57% 79%;
+    background-size: 550px 79%;
 }
 
-.feedback--without-padding {
+/*.feedback--without-padding {
     padding: 0 !important
-}
+}*/
 
 .feedback__header {
     margin-bottom: 60px;
@@ -405,7 +406,8 @@ html,body {
 }
 
 .feedback__form {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 480px;
     margin: 0 auto
 }
@@ -608,7 +610,6 @@ html,body {
     padding-top: 30px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
 }
 
 .header__links__item {
@@ -655,7 +656,7 @@ html,body {
     display: none
 }
 
-.header__links__item>img {
+.header__links__item img {
     display: inline-block;
     float: left;
     margin-right: 10px;
@@ -663,11 +664,11 @@ html,body {
     padding-top: 2px
 }
 
-.header__links__item--wide-img>img {
+.header__links__item--wide-img img {
     width: 33px
 }
 
-.header__links__item>span {
+.header__links__item span {
     display: inline-block;
     font: lighter 12px/16px "Open Sans","sans-serif";
     color: #3a3a3a;
@@ -996,7 +997,8 @@ html,body {
 }
 
 .projects__item {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    text-decoration: none;
 }
 
 .projects__item:hover {
@@ -1242,4 +1244,87 @@ html,body {
 
 .science__footer__link--small>img {
     height: 10px
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .header__links {
+        display: flex;
+        overflow-x: scroll;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .header__links__item:nth-child(2n+1) {
+        min-width: 159px;
+    }
+
+    .header__links__item:nth-child(2n) {
+        min-width: 115px;
+    }
+
+    .header__links__item:nth-child(5) {
+        min-width: 173px;
+    }
+
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .osteopathy__left-panel {
+        text-align: center;
+    }
+
+    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .osteopathy__right-panel {
+        margin-top: 45px;
+    }
+
+    .osteopathy__briefly__header h3 {
+        text-align: center;
+    }
+
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 24px;
+    }
+
+    .rf-osteopathy__article__header::before, .rf-osteopathy__links__header::before {
+        top: -10px;
+    }
+
+    .rf-osteopathy__links {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 600px) {
+    .feedback {
+        background: none;
+    }
+
+    .feedback__form {
+        width: 80%;
+    }
+
+    .feedback__form__footer {
+        padding-top: 20px;
+    }
 }
