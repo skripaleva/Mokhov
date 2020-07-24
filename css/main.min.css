@@ -284,10 +284,14 @@ html,body {
     background-color: #557080
 }
 
-.biography__text>p {
+.biography__text p {
     margin-bottom: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
     color: #3c3c3c
+}
+
+.biography__more {
+    display: none;
 }
 
 .biography__footer>a {
@@ -1013,8 +1017,8 @@ html,body {
     padding-top: 15px;
 }
 
-.projects__item>.col-8 {
-    padding: 0 40px 0 20px
+.col-8 {
+    padding: 0 40px 0 20px;
 }
 
 .projects__item__header {
@@ -1062,7 +1066,7 @@ html,body {
     width: 70%;
 }
 
-.projects__item--ROsMagazine {
+.projects__item--ROsMagazine img{
     padding-top: 20px;
 }
 
@@ -1289,7 +1293,8 @@ html,body {
         text-align: center;
     }
 
-    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article {
+    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
+    .biography, .science, .interaction__text, .interaction__links, .interaction__external {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1313,6 +1318,39 @@ html,body {
     .rf-osteopathy__links {
         margin-top: 45px;
     }
+
+    .biography__more {
+        display: block;
+        text-decoration: underline;
+    }
+
+    .biography__hidden {
+        display: none;
+    }
+
+    .biography__more:focus ~ .biography__hidden,
+    .biography__more:active ~ .biography__hidden,
+    .biography__hidden:hover
+    {
+        display: block;
+    }
+
+    .interaction__text {
+        margin-top: 30px;
+    }
+
+    .interaction__external {
+        text-align: left;
+    }
+}
+
+@media (max-width: 660px) {
+    .col-4 {
+        width: 40%;
+    }
+    .col-8 {
+        width: 60%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -1327,4 +1365,32 @@ html,body {
     .feedback__form__footer {
         padding-top: 20px;
     }
+
+    .col-4 {
+        width: 45%;
+    }
+    .col-8 {
+        width: 55%;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects__row {
+        flex-direction: column;
+    }
+
+    .col-4 {
+        width: 80%;
+    }
+
+    .col-8 {
+        width: 100%;
+        padding: 0 40px;
+        margin-top: 30px;
+    }
+
+    .projects__item__logo {
+        text-align: left;
+    }
+
 }
