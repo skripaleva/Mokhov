@@ -1001,8 +1001,9 @@ html,body {
 }
 
 .projects__item {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-decoration: none;
+    padding-top: 15px;
 }
 
 .projects__item:hover {
@@ -1067,7 +1068,7 @@ html,body {
 }
 
 .projects__item--ROsMagazine img{
-    padding-top: 20px;
+   /* padding-top: 20px; */
 }
 
 .projects__item--ROsMagazine>.col-8>img {
@@ -1222,6 +1223,7 @@ html,body {
 .science__footer__link-wrap {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .science__footer__link {
@@ -1231,7 +1233,8 @@ html,body {
     font: lighter 14px/19px "Open Sans","sans-serif";
     color: #80705d;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .science__footer__link:hover {
@@ -1242,7 +1245,7 @@ html,body {
 .science__footer__link>img {
     display: block;
     height: 20px;
-    margin: 25px auto 15px;
+    margin: 15px auto 15px;
     text-align: center
 }
 
@@ -1342,6 +1345,10 @@ html,body {
     .interaction__external {
         text-align: left;
     }
+
+    .science {
+        margin-top: 65px;
+    }
 }
 
 @media (max-width: 660px) {
@@ -1372,9 +1379,19 @@ html,body {
     .col-8 {
         width: 55%;
     }
+
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
+    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
+    .biography, .science, .interaction__text, .interaction__links, .interaction__external {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .projects__row {
         flex-direction: column;
     }
@@ -1385,7 +1402,7 @@ html,body {
 
     .col-8 {
         width: 100%;
-        padding: 0 40px;
+        padding: 0 20px;
         margin-top: 30px;
     }
 
@@ -1393,4 +1410,7 @@ html,body {
         text-align: left;
     }
 
+    .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
+        font-size: 16px;
+    }
 }
