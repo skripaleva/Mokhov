@@ -33,46 +33,94 @@
   <body>
     <!--include svg/icons-->
     <!-- -->
-    <div id="nav-menu" class="nav-menu-bg">
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#osteopathy">﻿остеопатия</a></li>
-          <li><a href="#morf">минздрав</a></li>
-          <li><a href="#blog">блог</a></li>
-          <li><a href="#projects">проекты</a></li>
-          <li><a href="#science">наука</a></li>
-          <li><a href="#collaboration">сотрудничество</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header">
-      <div class="header__links">
-        <!-- Институт остеопатии Санкт-Петербурга-->
-        <a href="http://osteopathie.ru" class="header__links__item" target="blank">
-          <img src="images/common/logo_IOSPb-compressor.svg">
-          <span>﻿Институт остеопатии<br>Санкт-Петербурга</span>
-        </a>
-        <!-- Институт остеопатии Мохова-->
-        <a href="http://instost.ru" class="header__links__item" target="blank">
-          <img src="images/common/logo_IO_Mokhova-compressor.svg">
-          <span>Институт<br>остеопатии<br>Мохова</span>
-        </a>
-        <!-- Российская остеопатическая ассоциация-->
-        <a href="http://www.osteopathy-official.ru/" target="blank" class="header__links__item header__links__item--wide-img">
-          <img src="images/common/logo_ROsA-compressor.svg">
-          <span>Российская<br>остеопатическая<br>ассоциация</span>
-        </a>
-        <!-- Российский остеопатический журнал-->
-        <a href="http://ro-journal.ru" target="blank" class="header__links__item">
-          <span>Российский<br>остеопатический<br>журнал</span>
-        </a>
-        <!-- Министерство здравоохранения Российской Федерации-->
-        <a href="https://www.rosminzdrav.ru/" target="blank" class="header__links__item">
-          <img src="images/common/logo_Minzdrav-compressor.svg">
-          <span>Министерство<br>здравоохранения<br>Российской Федерации</span>
-        </a>
+    <header>
+      <!--<input type="checkbox" name="mobile_nav_trigger" id="mobile_nav_trigger" class="mobile_nav_trigger">-->
+      <div id="nav-menu" class="nav-menu-bg">
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#osteopathy">﻿остеопатия</a></li>
+            <li><a href="#morf">минздрав</a></li>
+            <li><a href="#blog">блог</a></li>
+            <li><a href="#projects">проекты</a></li>
+            <li><a href="#science">наука</a></li>
+            <li><a href="#collaboration">сотрудничество</a></li>
+          </ul>
+        </nav>
+        <a href="#nav" aria-label="Open Navigation"><div class="header__burger header__burger-box"></div></a>
+        <!--<label for="mobile_nav_trigger" onclick>
+            <div class="header__burger header__burger-box"></div>
+        </label>-->
       </div>
-    </div>
+      <!--<input type="checkbox" name="mobile_nav_trigger-close" id="mobile_nav_trigger-close" class="mobile_nav_trigger">-->
+      <div id="nav" class="mobile-menu-list">
+        <!--<label for="mobile_nav_trigger-close" onclick>
+          <div class="header__burger mobile-menu-close-btn"></div>
+        </label>-->
+        <a href="#" aria-label="Close Navigation"><div class="header__burger mobile-menu-close-btn"></div></a>
+        <nav class="mobile_nav_menu">
+          <ul class="mobile-menu">
+            <li class="mobile-menu-item">
+              <a href="#about" class="mobile-menu-link">
+                остеопатия
+              </a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#sheeds" class="mobile-menu-link">
+                минздрав
+              </a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#project" class="mobile-menu-link">
+                блог
+              </a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#work" class="mobile-menu-link">
+                проекты
+              </a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#comments" class="mobile-menu-link">
+                наука
+              </a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#contacts" class="mobile-menu-link">
+                сотрудничество
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header">
+        <div class="header__links">
+          <!-- Институт остеопатии Санкт-Петербурга-->
+          <a href="http://osteopathie.ru" class="header__links__item" target="blank">
+            <img src="images/common/logo_IOSPb-compressor.svg">
+            <span>﻿Институт остеопатии<br>Санкт-Петербурга</span>
+          </a>
+          <!-- Институт остеопатии Мохова-->
+          <a href="http://instost.ru" class="header__links__item" target="blank">
+            <img src="images/common/logo_IO_Mokhova-compressor.svg">
+            <span>Институт<br>остеопатии<br>Мохова</span>
+          </a>
+          <!-- Российская остеопатическая ассоциация-->
+          <a href="http://www.osteopathy-official.ru/" target="blank" class="header__links__item header__links__item--wide-img">
+            <img src="images/common/logo_ROsA-compressor.svg">
+            <span>Российская<br>остеопатическая<br>ассоциация</span>
+          </a>
+          <!-- Российский остеопатический журнал-->
+          <a href="http://ro-journal.ru" target="blank" class="header__links__item">
+            <span>Российский<br>остеопатический<br>журнал</span>
+          </a>
+          <!-- Министерство здравоохранения Российской Федерации-->
+          <a href="https://www.rosminzdrav.ru/" target="blank" class="header__links__item">
+            <img src="images/common/logo_Minzdrav-compressor.svg">
+            <span>Министерство<br>здравоохранения<br>Российской Федерации</span>
+          </a>
+        </div>
+      </div>
+    </header>
     <!-- About Mokhov -->
     <div class="about__bg-color">
       <div class="about-bg">
@@ -592,6 +640,9 @@
           </article>
         </div>
       </div>
+    </div>
+    <div class="flippingbook">
+      <a href="https://online.flippingbook.com/view/46473/" class="fbo-embed"  data-fbo-id="46473"  data-fbo-lightbox="yes" data-fbo-width="960px" data-fbo-height="520px"   data-fbo-version="1"   style="max-width: 100%">Мохов ЮЙ</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=46473"></script>
     </div>
     <div class="interaction"><i id="collaboration" class="anchor"></i>
       <div class="interaction__header">

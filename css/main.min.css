@@ -15,6 +15,11 @@ body {
     line-height: 1
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 ol,ul {
     list-style: none
 }
@@ -1253,6 +1258,21 @@ html,body {
     height: 10px
 }
 
+.mobile_nav_trigger {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.mobile-menu-list {
+    display: none;
+}
+
+.flippingbook {
+    text-align: center;
+    margin-top: 65px;
+}
+
 @media (max-width: 900px) {
     .header {
         padding: 0 20px;
@@ -1283,6 +1303,106 @@ html,body {
 }
 
 @media (max-width: 768px) {
+    .nav-menu-bg {
+        display: flex;
+        height: 65px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    /*.header__burger {
+        display: flex;
+    }*/
+
+    .header__burger-box, .mobile-menu-close-btn {
+        display: flex;
+        /*position: fixed;*/
+        width: 36px;
+        height: 24px;
+        margin-right: 22px;
+        cursor: pointer;
+    }
+
+    .header__burger-box {
+        background: url("../images/common/burger_close.png") center top no-repeat;
+    }
+
+    .mobile-menu-close-btn {
+        background: url("../images/common/burger_open.png") center top no-repeat;
+        margin: 20px 22px;
+    }
+
+    .mobile_nav_menu {
+        margin-left: 52px;
+    }
+
+    .mobile-menu-item {
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .mobile-menu-item::after {
+        content: "﻿•";
+        position: absolute;
+        /*top: 10px;
+        right: 17px;*/
+        left: -14px;
+        color: white;
+        font: 18px / 20px "Fontatigo 4F", sans-serif;
+    }
+
+    .mobile-menu-list {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans","sans-serif";
+        align-self: flex-end;
+        position: fixed;
+        z-index: 1;
+        /*top: 64px;
+        /*right: 0;
+        top: 0;*/
+    }
+
+    .mobile-menu-list > a {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*#mobile_nav_trigger:checked ~ .nav-menu-bg .header__burger-box {
+        background: url("../images/common/burger_open.png") center top no-repeat;
+    }*/
+
+    #nav:not(:target) {
+        right: -100%;
+        transition: right 1.5s;
+    }
+
+    #nav:target {
+        right: 0;
+        transition: right 1s;
+    }
+
+    .mobile-menu-list {
+        width: 265px;
+        height: 664px;
+        background: rgba(85, 112, 128, 0.83);
+        box-shadow: -8px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .mobile-menu-link {
+        text-decoration: none;
+        color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -1412,5 +1532,11 @@ html,body {
 
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .interaction, .flippingbook {
+        margin-top: 0;
     }
 }
