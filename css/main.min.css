@@ -15,10 +15,10 @@ body {
     line-height: 1
 }
 
-header {
+/*header {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 ol,ul {
     list-style: none
@@ -192,7 +192,7 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px;
+    /*padding: 0 40px;*/
     height: 680px;
     background: url("../images/blocks/about/mokhov.jpg") center top no-repeat;
 }
@@ -216,7 +216,7 @@ html,body {
 }
 
 .about__section {
-    margin-left: -40px;
+    /*margin-left: -40px;*/
     /* width: 480px; */
     background-color: rgba(128,112,93,0.71);
     padding: 40px
@@ -233,7 +233,8 @@ html,body {
 
 .about__section__posts {
     font-size: 0;
-    text-align: center
+    text-align: center;
+    /*padding-bottom: 40px;*/
 }
 
 .about__section__posts>li {
@@ -503,10 +504,10 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px;
-    padding: 0;
+    padding: 10px 0;
     font-size: 0;
-    text-align: center
+    text-align: center;
+    min-height: 40px;
 }
 
 .footer--without-padding {
@@ -521,7 +522,7 @@ html,body {
     content: "•";
     display: inline-block;
     width: 80px;
-    font: normal 12px/40px "sans-serif";
+    font: normal 12px/16px "sans-serif";
     color: #fff
 }
 
@@ -530,7 +531,7 @@ html,body {
 }
 
 .footer__link {
-    font: lighter 12px/40px "Open Sans","sans-serif";
+    font: lighter 12px/16px "Open Sans","sans-serif";
     color: #c1ab81;
     text-decoration: none
 }
@@ -603,11 +604,12 @@ html,body {
 }
 
 .header {
-    display: flex;
+    display: block;
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 40px;
+    position: relative;
+    padding: 0;
 }
 
 .header--without-padding {
@@ -617,19 +619,23 @@ html,body {
 .header__links {
     height: 115px;
     padding-top: 30px;
-    width: 100%;
-    display: flex;
+    /*width: 100%;*/
+    display: block;
 }
 
 .header__links__item {
     position: relative;
-    display: inline-block;
+    display: block;
     vertical-align: top;
     margin-right: 20px;
-    height: 64px;
-    overflow: hidden;
+    /*height: 64px;*/
+    /*overflow: hidden;*/
     padding: 8px 10px;
     font-size: 0
+}
+
+.header__links__item:last-child {
+    margin-right: 0;
 }
 
 .header__links__item::before {
@@ -637,6 +643,7 @@ html,body {
     position: absolute;
     top: 5px;
     right: 5px;
+    /*left: 160px;*/
     width: 4px;
     height: 4px;
     border-top: 1px solid #557080;
@@ -648,6 +655,7 @@ html,body {
     position: absolute;
     top: 0;
     right: 0;
+    /*left: 160px;*/
     width: 10px;
     height: 10px;
     border-top: 1px solid #557080;
@@ -665,6 +673,8 @@ html,body {
     display: none
 }
 
+
+
 .header__links__item img {
     display: inline-block;
     float: left;
@@ -681,7 +691,51 @@ html,body {
     display: inline-block;
     font: lighter 12px/16px "Open Sans","sans-serif";
     color: #3a3a3a;
-    text-decoration: none
+    text-decoration: none;
+    position: relative;
+    padding-left: 15px;
+}
+
+.header__links__item span::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+.header__links__iospb::before {
+
+    background: url(../images/common/logo_IOSPb-compressor.svg) left center no-repeat;
+}
+
+.header__links__iom::before {
+    background: url(../images/common/logo_IO_Mokhova-compressor.svg) left center no-repeat;
+}
+
+.header .header__links__roj {
+    padding-left: 0;
+}
+
+.header .header__links__roa {
+    padding-left: 35px;
+}
+
+.header .header__links__roa::before {
+    background: url(../images/common/logo_ROsA-compressor.svg) left center no-repeat;
+    width: 30px;
+}
+
+/*.header .header__links__mzrf {
+    padding-left: 23px;
+}*/
+
+.header .header__links__mzrf::before {
+    background: url(../images/common/logo_Minzdrav-compressor.svg) left center no-repeat;
+    width: 13px;
+    height: 13px;
 }
 
 .interaction {
@@ -1258,11 +1312,11 @@ html,body {
     height: 10px
 }
 
-.mobile_nav_trigger {
+/*.mobile_nav_trigger {
     position: absolute;
     top: -9999px;
     left: -9999px;
-}
+}*/
 
 .mobile-menu-list {
     display: none;
@@ -1273,8 +1327,12 @@ html,body {
     margin-top: 65px;
 }
 
+.links__btn {
+    top: 50px;
+}
+
 @media (max-width: 900px) {
-    .header {
+    /*.header {
         padding: 0 20px;
     }
 
@@ -1295,7 +1353,20 @@ html,body {
 
     .header__links__item:nth-child(5) {
         min-width: 173px;
+    }*/
+
+    .about__header {
+        font-size: 32px;
     }
+
+    .about__section__text {
+        font-size: 16px;
+    }
+
+    .about__section__posts>li {
+        font-size: 12px;
+    }
+
 
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 20px;
@@ -1303,6 +1374,8 @@ html,body {
 }
 
 @media (max-width: 768px) {
+
+
     .nav-menu-bg {
         display: flex;
         height: 65px;
@@ -1313,6 +1386,10 @@ html,body {
     .nav-menu {
         display: none;
     }
+
+    /*.about__bg-color {
+        background-color: transparent;
+    }*/
 
     /*.header__burger {
         display: flex;
@@ -1329,6 +1406,42 @@ html,body {
 
     .header__burger-box {
         background: url("../images/common/burger_close.png") center top no-repeat;
+    }
+
+    /*.about__section {
+        padding: 40px 30px;
+    }*/
+
+
+
+    .about__header {
+        font-size: 27px;
+        line-height: 128.18%;
+        /*font-weight: 600;*/
+    }
+
+    .about__section {
+        padding: 30px;
+    }
+
+    .about__section__text {
+        font-size: 14px;
+    }
+
+    .about__section__posts {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .about__section__posts>li {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .about__section__posts>li::before {
+        display: none;
     }
 
     .mobile-menu-close-btn {
@@ -1361,7 +1474,7 @@ html,body {
         font-family: "Open Sans","sans-serif";
         align-self: flex-end;
         position: fixed;
-        z-index: 1;
+        z-index: 1111;
         /*top: 64px;
         /*right: 0;
         top: 0;*/
@@ -1383,6 +1496,7 @@ html,body {
 
     #nav:target {
         right: 0;
+        top: 0;
         transition: right 1s;
     }
 
@@ -1469,6 +1583,14 @@ html,body {
     .science {
         margin-top: 65px;
     }
+
+    .footer>li {
+        margin-right: 10px;
+    }
+
+    .footer>li::after {
+        display: none;
+    }
 }
 
 @media (max-width: 660px) {
@@ -1481,6 +1603,11 @@ html,body {
 }
 
 @media (max-width: 600px) {
+    .top-block {
+        display: flex;
+        flex-direction: column;
+    }
+
     .feedback {
         background: none;
     }
@@ -1502,6 +1629,70 @@ html,body {
 
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 20px;
+    }
+
+    .header {
+        order: 3;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .nav-menu-bg {
+        order: 1;
+    }
+
+    .about__bg-color {
+        order: 2;
+    }
+
+    /*.about {
+        background: linear-gradient(90deg, #80705D 0%, rgba(128, 112, 93, 0) 103.39%);
+    }*/
+
+    .about__bg-color {
+        background-color: transparent;
+    }
+
+    .about-bg {
+        max-height: 425px;
+        background-size: contain;
+    }
+
+    .about__section {
+        background-color: transparent;
+        padding-right: 0;
+    }
+
+    .about__section__text {
+        display: none;
+    }
+
+    /*.about__section__posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__section__posts>li {
+        width: 100%;
+        text-align: left;
+    }*/
+
+    .about__section__posts li {
+        line-height: 113.68%;
+    }
+
+    .about__section__posts>li::before {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .about-bg {
+        max-height: 390px;
+    }
+
+    .about__section {
+        padding-top: 0;
     }
 }
 
@@ -1533,10 +1724,67 @@ html,body {
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 16px;
     }
+
+    .about-bg {
+        max-height: 354px;
+    }
+
+    .about__section__posts {
+        padding-top: 0;
+    }
+
+    /*.about__header {
+        font-size: 24px;
+    }*/
+}
+
+@media (max-width: 450px) {
+    .about-bg {
+        max-height: 318px;
+    }
+
+    .about__header {
+        padding-top: 17px;
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
 }
 
 @media (max-width: 400px) {
-    .interaction, .flippingbook {
+    /*.interaction, .flippingbook {
         margin-top: 0;
+    }*/
+
+    .about__header {
+        padding-top: 10px;
+        font-size: 22px;
+        padding-bottom: 0;
+    }
+    .about__section__posts li {
+        line-height: 113.68%;
+    }
+}
+
+@media (max-width: 342px) {
+    .header {
+        padding: 0 60px;
+    }
+    .about__header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 310px) {
+    .header {
+        padding: 0 60px;
+    }
+
+    .about__section {
+        display: none;
     }
 }
