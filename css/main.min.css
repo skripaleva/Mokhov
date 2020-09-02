@@ -71,7 +71,7 @@ html,body {
     display: block;
     position: relative;
     left: 0;
-    top: -50px;
+    top: -70px;
     width: 0;
     height: 0
 }
@@ -255,7 +255,7 @@ html,body {
 }
 
 .biography {
-    padding: 0 20px 0 40px
+    padding: 0 20px 0 40px;
 }
 
 /* .biography__header::before {
@@ -1118,13 +1118,13 @@ html,body {
     text-align: center;
 }
 
-.projects__item--IOSPb img:first-child {
+.projects__item--IOSPb img {
     width: 80%;
 }
 
-.projects__item--IOSPb img:last-child {
+/*.projects__item--IOSPb img:last-child {
     width: 70%;
-}
+}*/
 
 .projects__item--ROsMagazine img{
    /* padding-top: 20px; */
@@ -1140,7 +1140,7 @@ html,body {
 
 .projects__item__logo__special {
     position: relative;
-    left: 30px
+    /*left: 30px*/
 }
 
 /* .projects__item__logo:hover {
@@ -1580,8 +1580,8 @@ html,body {
         text-align: left;
     }
 
-    .science {
-        margin-top: 65px;
+    .biography {
+        margin-bottom: 65px;
     }
 
     .footer>li {
