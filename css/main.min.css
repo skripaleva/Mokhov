@@ -4,54 +4,48 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-    display: block
+    display: block;
 }
 
 body {
-    line-height: 1
+    line-height: 1;
 }
 
-/*header {
-    display: flex;
-    flex-direction: column;
-}*/
-
 ol,ul {
-    list-style: none
+    list-style: none;
 }
 
 blockquote,q {
-    quotes: none
+    quotes: none;
 }
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 html,body {
-    /* min-width: 960px; */
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .hide {
-    display: none !important
+    display: none !important;
 }
 
 .show {
-    display: block !important
+    display: block !important;
 }
 
 .center {
-    text-align: center
+    text-align: center;
 }
 
 .container {
@@ -64,7 +58,7 @@ html,body {
 }
 
 .container--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .anchor {
@@ -73,12 +67,12 @@ html,body {
     left: 0;
     top: -70px;
     width: 0;
-    height: 0
+    height: 0;
 }
 
 .row, .projects__row {
     display: flex;
-    width: 100%
+    width: 100%;
 }
 
 .row::after {
@@ -87,56 +81,56 @@ html,body {
     display: block;
     height: 0;
     font-size: 0;
-    visibility: hidden
+    visibility: hidden;
 }
 
 .col-1 {
     position: relative;
     display: block;
     width: 80px;
-    float: left
+    float: left;
 }
 
 .col-2 {
     position: relative;
     display: block;
     width: 160px;
-    float: left
+    float: left;
 }
 
 .col-3 {
     position: relative;
     display: block;
     width: 240px;
-    float: left
+    float: left;
 }
 
 .col-4 {
     position: relative;
     display: block;
     width: 33%;
-    float: left
+    float: left;
 }
 
 .col-5 {
     position: relative;
     display: block;
     width: 400px;
-    float: left
+    float: left;
 }
 
 .col-6 {
     position: relative;
     display: block;
     width: 50%;
-    float: left
+    float: left;
 }
 
 .col-7 {
     position: relative;
     display: block;
     width: 560px;
-    float: left
+    float: left;
 }
 
 .col-8 {
@@ -151,28 +145,28 @@ html,body {
     position: relative;
     display: block;
     width: 720px;
-    float: left
+    float: left;
 }
 
 .col-10 {
     position: relative;
     display: block;
     width: 800px;
-    float: left
+    float: left;
 }
 
 .col-11 {
     position: relative;
     display: block;
     width: 880px;
-    float: left
+    float: left;
 }
 
 .col-12 {
     position: relative;
     display: block;
     width: 960px;
-    float: left
+    float: left;
 }
 
 .about {
@@ -183,8 +177,6 @@ html,body {
 
 .about__bg-color {
     background-color: #557080;
-    /* height: 590px;
-    margin-bottom: 90px; */
 }
 
 .about-bg {
@@ -192,13 +184,12 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    /*padding: 0 40px;*/
     height: 680px;
     background: url("../images/blocks/about/mokhov.jpg") center top no-repeat;
 }
 
 .about-bg--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .about__header {
@@ -207,34 +198,31 @@ html,body {
     padding-bottom: 30px;
     font: italic 40px "Georgia",Serif;
     color: #fff;
-    text-shadow: -2px 1px 0 #c1ab81
+    text-shadow: -2px 1px 0 #c1ab81;
 }
 
 .about__header span {
     display: inline-block;
-    width: 55px
+    width: 55px;
 }
 
 .about__section {
-    /*margin-left: -40px;*/
-    /* width: 480px; */
     background-color: rgba(128,112,93,0.71);
-    padding: 40px
+    padding: 40px;
 }
 
 .about__section__text {
     font: normal 18px/21px "Open Sans","sans-serif";
-    color: #fff
+    color: #fff;
 }
 
 .about__section__text>p {
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .about__section__posts {
     font-size: 0;
     text-align: center;
-    /*padding-bottom: 40px;*/
 }
 
 .about__section__posts>li {
@@ -244,32 +232,24 @@ html,body {
     width: 33%;
     padding-top: 14px;
     font: normal 14px/16px "Open Sans","sans-serif";
-    color: #fff
+    color: #fff;
 }
 
 .about__section__posts>li::before {
     content: "•";
     position: absolute;
     top: 0;
-    left: 50%
+    left: 50%;
 }
 
 .biography {
     padding: 0 20px 0 40px;
 }
 
-/* .biography__header::before {
-    content: "•";
-    display: block;
-    font: normal 18px/29px "Fontatigo 4F","sans-serif";
-    color: #c1ab81;
-    text-align: center
-} */
-
 .biography__header h2 {
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
-    text-align: center
+    text-align: center;
 }
 
 .biography__hr {
@@ -277,7 +257,7 @@ html,body {
     margin: 20px 0;
     height: 4px;
     background: #557080;
-    border: none
+    border: none;
 }
 
 .biography__hr--wide::before {
@@ -287,13 +267,13 @@ html,body {
     right: 100%;
     width: 100vw;
     height: 100%;
-    background-color: #557080
+    background-color: #557080;
 }
 
 .biography__text p {
     margin-bottom: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #3c3c3c
+    color: #3c3c3c;
 }
 
 .biography__more {
@@ -302,11 +282,11 @@ html,body {
 
 .biography__footer>a {
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #c1ab81
+    color: #c1ab81;
 }
 
 .biography__footer>a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .events {
@@ -316,32 +296,24 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     position: relative;
-    padding: 0
+    padding: 0;
 }
 
 .events--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .events__header {
-    padding-top: 65px;
+    margin-top: 65px;
     padding-bottom: 10px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
-    text-align: center
+    text-align: center;
 }
 
 .events__list__item {
-    padding: 0 8px
+    padding: 0 8px;
 }
-
-/* .events__list__item::before {
-    content: "•";
-    display: block;
-    font: normal 14px/35px "sans-serif";
-    text-align: center;
-    color: #c1ab81
-} */
 
 .events__list__item>a {
     display: block;
@@ -359,14 +331,14 @@ html,body {
 
 .events__btn {
     position: absolute;
-    top: 200px;
+    top: 100px;
     width: 10px;
     height: 10px;
     border: none;
     border-top: 1px solid #80705d;
     border-left: 1px solid #80705d;
     padding: 0;
-    background: none
+    background: none;
 }
 
 .events__btn:hover {
@@ -376,21 +348,21 @@ html,body {
 }
 
 .events__btn:focus {
-    outline: none
+    outline: none;
 }
 
 .events__btn--left {
     left: 0;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
 }
 
 .events__btn--right {
     right: 0;
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
-    transform: rotate(135deg)
+    transform: rotate(135deg);
 }
 
 .feedback {
@@ -398,28 +370,27 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    /* padding: 0 40px; */
     margin-top: 65px;
     background: url(../images/common/frame1.svg) center 55px no-repeat;
     background-size: 550px 79%;
 }
 
-/*.feedback--without-padding {
-    padding: 0 !important
-}*/
+.feedback--without-padding {
+    padding: 0 !important;
+}
 
 .feedback__header {
     margin-bottom: 60px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
-    text-align: center
+    text-align: center;
 }
 
 .feedback__form {
     display: flex;
     flex-direction: column;
     width: 480px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .feedback__form__field {
@@ -430,7 +401,7 @@ html,body {
     -webkit-flex-flow: row nowrap;
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    margin: 2px 0
+    margin: 2px 0;
 }
 
 .feedback__form__field>span {
@@ -439,7 +410,7 @@ html,body {
     flex: 0 1 auto;
     padding-right: 10px;
     font: lighter 12px/23px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .feedback__form__field>input {
@@ -447,24 +418,24 @@ html,body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     border: 1px solid #c1ab81;
-    font: lighter 12px/23px "Open Sans","sans-serif"
+    font: lighter 12px/23px "Open Sans","sans-serif";
 }
 
 .feedback__form__area {
     display: block;
-    margin: 2px 0
+    margin: 2px 0;
 }
 
 .feedback__form__area>span {
     font: lighter 12px/23px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .feedback__form__area>textarea {
     display: block;
     width: 100%;
     border: 1px solid #c1ab81;
-    font: lighter 12px/19px "Open Sans","sans-serif"
+    font: lighter 12px/19px "Open Sans","sans-serif";
 }
 
 .feedback__form__footer {
@@ -478,7 +449,7 @@ html,body {
     border: none;
     background-color: #d16d4f;
     font: normal 14px/40px "Fontatigo 4F","sans-serif";
-    color: #fff
+    color: #fff;
 }
 
 .feedback__form__footer>button:hover {
@@ -495,7 +466,7 @@ html,body {
 
 .footer-bg {
     margin-top: 60px;
-    background-color: #80705d
+    background-color: #80705d;
 }
 
 .footer {
@@ -511,7 +482,7 @@ html,body {
 }
 
 .footer--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .footer>li {
@@ -523,17 +494,17 @@ html,body {
     display: inline-block;
     width: 80px;
     font: normal 12px/16px "sans-serif";
-    color: #fff
+    color: #fff;
 }
 
 .footer>li:last-of-type::after {
-    display: none
+    display: none;
 }
 
 .footer__link {
     font: lighter 12px/16px "Open Sans","sans-serif";
     color: #c1ab81;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .footer__link:hover {
@@ -543,21 +514,20 @@ html,body {
 
 .footer__link--bold {
     font-size: 14px;
-    color: #fff
+    color: #fff;
 }
 
 .nav-menu-bg {
     background-color: #557080;
-    z-index: 999
+    z-index: 999;
 }
 
 .nav-menu {
     position: relative;
     display: block;
     box-sizing: border-box;
-    /* width: 960px; */
     margin: 0 auto;
-    padding: 0 0
+    padding: 0 0;
 }
 
 .nav-menu>ul {
@@ -570,7 +540,7 @@ html,body {
 .nav-menu>ul>li {
     position: relative;
     display: inline-block;
-    padding-right: 38px
+    padding-right: 38px;
 }
 
 .nav-menu>ul>li:after {
@@ -579,15 +549,15 @@ html,body {
     top: 0;
     right: 17px;
     font: normal 14px/40px "Fontatigo 4F","sans-serif";
-    color: white
+    color: white;
 }
 
 .nav-menu>ul>li:last-of-type {
-    padding: 0
+    padding: 0;
 }
 
 .nav-menu>ul>li:last-of-type:after {
-    content: none
+    content: none;
 }
 
 .nav-menu>ul>li>a {
@@ -595,7 +565,7 @@ html,body {
     padding: 0 4px;
     font: normal 14px/40px "Fontatigo 4F","sans-serif";
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .nav-menu>ul>li>a:hover {
@@ -613,13 +583,12 @@ html,body {
 }
 
 .header--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .header__links {
     height: 115px;
     padding-top: 30px;
-    /*width: 100%;*/
     display: block;
 }
 
@@ -628,10 +597,8 @@ html,body {
     display: block;
     vertical-align: top;
     margin-right: 20px;
-    /*height: 64px;*/
-    /*overflow: hidden;*/
     padding: 8px 10px;
-    font-size: 0
+    font-size: 0;
 }
 
 .header__links__item:last-child {
@@ -643,11 +610,10 @@ html,body {
     position: absolute;
     top: 5px;
     right: 5px;
-    /*left: 160px;*/
     width: 4px;
     height: 4px;
     border-top: 1px solid #557080;
-    border-right: 1px solid #557080
+    border-right: 1px solid #557080;
 }
 
 .header__links__item::after {
@@ -655,22 +621,20 @@ html,body {
     position: absolute;
     top: 0;
     right: 0;
-    /*left: 160px;*/
     width: 10px;
     height: 10px;
     border-top: 1px solid #557080;
-    border-right: 1px solid #557080
+    border-right: 1px solid #557080;
 }
 
 .header__links__item:hover {
-    /* outline: 1px solid #557080 */
     background-color: rgba(193,171,129,0.2);
     transition: 0.3s;
 }
 
 .header__links__item:hover::before,.header__links__item:hover::after {
     content: none;
-    display: none
+    display: none;
 }
 
 
@@ -680,11 +644,11 @@ html,body {
     float: left;
     margin-right: 10px;
     width: 10px;
-    padding-top: 2px
+    padding-top: 2px;
 }
 
 .header__links__item--wide-img img {
-    width: 33px
+    width: 33px;
 }
 
 .header__links__item span {
@@ -728,10 +692,6 @@ html,body {
     width: 30px;
 }
 
-/*.header .header__links__mzrf {
-    padding-left: 23px;
-}*/
-
 .header .header__links__mzrf::before {
     background: url(../images/common/logo_Minzdrav-compressor.svg) left center no-repeat;
     width: 13px;
@@ -745,25 +705,25 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
-    margin-top: 65px
+    margin-top: 65px;
 }
 
 .interaction--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .interaction__header {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .interaction__header h2 {
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
-    text-align: center
+    text-align: center;
 }
 
 .interaction__text {
-    padding: 0 40px 0 20px
+    padding: 0 40px 0 20px;
 }
 
 .interaction__img {
@@ -773,23 +733,23 @@ html,body {
 .interaction__text>p {
     margin-bottom: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #3c3c3c
+    color: #3c3c3c;
 }
 
 .interaction__external {
     padding: 20px 20px 0 160px;
     font: 600 12px/19px "Open Sans","sans-serif";
     color: #80705d;
-    text-align: right
+    text-align: right;
 }
 
 .interaction__links {
-    padding: 20px 20px 0
+    padding: 20px 20px 0;
 }
 
 .interaction__links>li {
     position: relative;
-    padding: 4px 0 4px 20px
+    padding: 4px 0 4px 20px;
 }
 
 .interaction__links>li::before {
@@ -798,13 +758,13 @@ html,body {
     left: 0;
     top: 4px;
     font: normal 14px/19px "sans-serif";
-    color: #c1ab81
+    color: #c1ab81;
 }
 
 .interaction__links>li>a {
     font: lighter 14px/19px "Open Sans","sans-serif";
     color: #c1ab81;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .interaction__links>li>a:hover {
@@ -819,53 +779,53 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     padding: 0;
-    margin-top: 65px
+    margin-top: 65px;
 }
 
 .my-blog--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .my-blog__header {
     margin-bottom: 15px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #9ca9b4;
-    text-align: center
+    text-align: center;
 }
 
 .my-blog__bg {
     padding: 25px 40px;
-    background-color: #eff3f6
+    background-color: #eff3f6;
 }
 
 .my-blog__post {
     position: relative;
-    padding-right: 300px
+    padding-right: 300px;
 }
 
 .my-blog__post__header {
     margin-bottom: 25px;
     font: 600 24px/30px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .my-blog__post__text {
     font: lighter 12px/15px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .my-blog__post__text>p {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .my-blog__post__author {
     position: absolute;
     top: 0;
-    right: 160px
+    right: 160px;
 }
 
 .my-blog__post__author__photo {
-    display: block
+    display: block;
 }
 
 .my-blog__post__author__link {
@@ -873,7 +833,7 @@ html,body {
     padding-right: 10px;
     font: bold 10px/15px "Verdana","sans-serif";
     color: #4566b8;
-    text-align: right
+    text-align: right;
 }
 
 .my-blog__post__author__dt {
@@ -881,18 +841,18 @@ html,body {
     padding-right: 5px;
     font: normal 10px/15px "Verdana","sans-serif";
     color: #000;
-    text-align: right
+    text-align: right;
 }
 
 .my-blog__post__footer__tags {
     font: lighter 12px/15px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .my-blog__post__footer__tags>a {
     color: #4566b8;
     text-decoration: none;
-    border-bottom: 1px solid #000
+    border-bottom: 1px solid #000;
 }
 
 .my-blog__post__footer__tags>a:hover {
@@ -902,41 +862,41 @@ html,body {
 
 .my-blog__pagination {
     margin-top: 25px;
-    text-align: center
+    text-align: center;
 }
 
 .my-blog__pagination__pre,.my-blog__pagination__next {
     position: relative;
     font: 600 12px/15px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .my-blog__pagination__pre::before,.my-blog__pagination__next::before,.my-blog__pagination__pre::after,.my-blog__pagination__next::after {
     position: absolute;
     transition: all .2s ease-in-out;
-    top: 2px
+    top: 2px;
 }
 
 .my-blog__pagination__pre {
-    margin-right: 40px
+    margin-right: 40px;
 }
 
 .my-blog__pagination__pre::before {
     content: "<";
-    right: calc(100% + 5px)
+    right: calc(100% + 5px);
 }
 
 .my-blog__pagination__pre:hover::before {
-    right: calc(100% + 10px)
+    right: calc(100% + 10px);
 }
 
 .my-blog__pagination__next::after {
     content: ">";
-    left: calc(100% + 5px)
+    left: calc(100% + 5px);
 }
 
 .my-blog__pagination__next:hover::after {
-    left: calc(100% + 10px)
+    left: calc(100% + 10px);
 }
 
 .osteopathy {
@@ -944,12 +904,11 @@ html,body {
     box-sizing: border-box;
     max-width: 960px;
     margin: 0 auto;
-    /* padding: 0 40px; */
     padding-top: 40px;
 }
 
 .osteopathy--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .osteopathy__header {
@@ -957,32 +916,32 @@ html,body {
     padding-bottom: 15px;
     text-align: center;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
-    color: #ff965c
+    color: #ff965c;
 }
 
 .osteopathy__left-panel {
     padding: 20px;
-    text-align: right
+    text-align: right;
 }
 
 .osteopathy__left-panel__quote {
     font: italic 21px/28px "Open Sans","sans-serif";
     color: #c1ab81;
-    quotes: "\00ab" "\00bb"
+    quotes: "\00ab" "\00bb";
 }
 
 .osteopathy__left-panel__author {
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .osteopathy__left-panel__author>small {
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #c1ab81
+    color: #c1ab81;
 }
 
 .osteopathy__right-panel {
     padding: 20px 20px 30px;
-    background-color: #ff965c
+    background-color: #ff965c;
 }
 
 .osteopathy__briefly__header {
@@ -993,17 +952,17 @@ html,body {
 
 .osteopathy__briefly__text {
     font: lighter 14px/24px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .osteopathy__briefly__details {
     margin-top: 25px;
-    text-align: center
+    text-align: center;
 }
 
 .osteopathy__briefly__details>p {
     font: lighter 12px/19px "Open Sans","sans-serif";
-    color: #000
+    color: #000;
 }
 
 .osteopathy__briefly__details>a {
@@ -1012,7 +971,7 @@ html,body {
     border: 1px solid #fff;
     padding: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #fff
+    color: #fff;
 }
 
 .osteopathy__briefly__details>a::before {
@@ -1035,7 +994,7 @@ html,body {
     width: auto;
     height: 100%;
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 .projects {
@@ -1044,25 +1003,29 @@ html,body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 40px;
-    padding: 10px 0 0;
+    padding: 0;
     background-color: #fff;
 }
 
 .projects--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .projects__header {
     margin-bottom: 15px;
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #9ca9b4;
-    text-align: center
+    text-align: center;
 }
 
 .projects__item {
     margin-bottom: 15px;
     text-decoration: none;
     padding-top: 15px;
+}
+
+.projects__item:last-child {
+    margin-bottom: 0;
 }
 
 .projects__item:hover {
@@ -1084,13 +1047,13 @@ html,body {
 .projects__item__header {
     margin-bottom: 25px;
     font: 600 14px/19px "Open Sans","sans-serif";
-    color: #80705d
+    color: #80705d;
 }
 
 .projects__item__header>a {
     font: inherit;
     color: inherit;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .projects__item__header>a:hover {
@@ -1101,7 +1064,7 @@ html,body {
 .projects__item__info {
     margin-bottom: 25px;
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #3c3c3c
+    color: #3c3c3c;
 }
 
 .projects__item__info a {
@@ -1122,14 +1085,6 @@ html,body {
     width: 80%;
 }
 
-/*.projects__item--IOSPb img:last-child {
-    width: 70%;
-}*/
-
-.projects__item--ROsMagazine img{
-   /* padding-top: 20px; */
-}
-
 .projects__item--ROsMagazine>.col-8>img {
     width: 100%;
 }
@@ -1140,12 +1095,7 @@ html,body {
 
 .projects__item__logo__special {
     position: relative;
-    /*left: 30px*/
 }
-
-/* .projects__item__logo:hover {
-    outline: 1px solid #557080;
-} */
 
 .rf-osteopathy {
     display: block;
@@ -1154,24 +1104,17 @@ html,body {
     margin: 0 auto;
     padding: 0 40px;
     margin-top: 65px;
-    padding: 0
+    padding: 0;
 }
 
 .rf-osteopathy--without-padding {
-    padding: 0 !important
+    padding: 0 !important;
 }
 
-/* .rf-osteopathy .col-6::before {
-    content: "•";
-    display: block;
-    color: #c1ab81;
-    text-align: center;
-    font: normal 20px/60px "sans-serif"
-} */
 
 .rf-osteopathy__article {
     padding-left: 40px;
-    padding-right: 30px
+    padding-right: 30px;
 }
 
 .rf-osteopathy__article__header {
@@ -1189,21 +1132,21 @@ html,body {
     left: 0;
     width: 50px;
     height: 74px;
-    background: url(../images/common/logo_Minzdrav-compressor.svg) left center no-repeat
+    background: url(../images/common/logo_Minzdrav-compressor.svg) left center no-repeat;
 }
 
 .rf-osteopathy__article__text {
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #3c3c3c
+    color: #3c3c3c;
 }
 
 .rf-osteopathy__article__text>p {
-    margin-bottom: 19px
+    margin-bottom: 19px;
 }
 
 .rf-osteopathy__links {
     padding-left: 20px;
-    padding-right: 40px
+    padding-right: 40px;
 }
 
 .rf-osteopathy__links__header {
@@ -1221,17 +1164,17 @@ html,body {
     left: 0;
     width: 50px;
     height: 74px;
-    background: url(../images/common/info-compressor.svg) left center no-repeat
+    background: url(../images/common/info-compressor.svg) left center no-repeat;
 }
 
 .rf-osteopathy__links__list>li {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .rf-osteopathy__links__list>li>a {
     font: 600 14px/19px "Open Sans","sans-serif";
     color: #80705d;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .rf-osteopathy__links__list>li>a:hover {
@@ -1241,31 +1184,23 @@ html,body {
 }
 
 .science {
-    padding: 0 40px 0 20px
+    padding: 0 40px 0 20px;
 }
 
 .science__header {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
-
-/* .science__header::before {
-    content: "•";
-    display: block;
-    font: normal 18px/29px "Fontatigo 4F","sans-serif";
-    color: #c1ab81;
-    text-align: center
-} */
 
 .science__header h2 {
     font: normal 24px/28px "Fontatigo 4F","sans-serif";
     color: #80705d;
-    text-align: center
+    text-align: center;
 }
 
 .science__text>p {
     margin-bottom: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
-    color: #3c3c3c
+    color: #3c3c3c;
 }
 
 .science__text>img {
@@ -1276,7 +1211,7 @@ html,body {
 
 .science__footer>p {
     font: 600 14px/19px "Open Sans","sans-serif";
-    color: #80705d
+    color: #80705d;
 }
 
 .science__footer__link-wrap {
@@ -1305,56 +1240,27 @@ html,body {
     display: block;
     height: 20px;
     margin: 15px auto 15px;
-    text-align: center
+    text-align: center;
 }
 
 .science__footer__link--small>img {
-    height: 10px
+    height: 10px;
 }
-
-/*.mobile_nav_trigger {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}*/
 
 .mobile-menu-list {
     display: none;
 }
 
-.flippingbook {
+/*.flippingbook {
     text-align: center;
     margin-top: 65px;
-}
+}*/
 
 .links__btn {
     top: 50px;
 }
 
 @media (max-width: 900px) {
-    /*.header {
-        padding: 0 20px;
-    }
-
-    .header__links {
-        display: flex;
-        overflow-x: scroll;
-        padding-left: 10px;
-        box-sizing: border-box;
-    }
-
-    .header__links__item:nth-child(2n+1) {
-        min-width: 159px;
-    }
-
-    .header__links__item:nth-child(2n) {
-        min-width: 115px;
-    }
-
-    .header__links__item:nth-child(5) {
-        min-width: 173px;
-    }*/
-
     .about__header {
         font-size: 32px;
     }
@@ -1375,7 +1281,6 @@ html,body {
 
 @media (max-width: 768px) {
 
-
     .nav-menu-bg {
         display: flex;
         height: 65px;
@@ -1386,14 +1291,6 @@ html,body {
     .nav-menu {
         display: none;
     }
-
-    /*.about__bg-color {
-        background-color: transparent;
-    }*/
-
-    /*.header__burger {
-        display: flex;
-    }*/
 
     .header__burger-box, .mobile-menu-close-btn {
         display: flex;
@@ -1408,16 +1305,9 @@ html,body {
         background: url("../images/common/burger_close.png") center top no-repeat;
     }
 
-    /*.about__section {
-        padding: 40px 30px;
-    }*/
-
-
-
     .about__header {
         font-size: 27px;
         line-height: 128.18%;
-        /*font-weight: 600;*/
     }
 
     .about__section {
@@ -1437,7 +1327,6 @@ html,body {
     .about__section__posts>li {
         width: 100%;
         text-align: left;
-
     }
 
     .about__section__posts>li::before {
@@ -1461,8 +1350,6 @@ html,body {
     .mobile-menu-item::after {
         content: "﻿•";
         position: absolute;
-        /*top: 10px;
-        right: 17px;*/
         left: -14px;
         color: white;
         font: 18px / 20px "Fontatigo 4F", sans-serif;
@@ -1475,19 +1362,12 @@ html,body {
         align-self: flex-end;
         position: fixed;
         z-index: 1111;
-        /*top: 64px;
-        /*right: 0;
-        top: 0;*/
     }
 
     .mobile-menu-list > a {
         display: flex;
         justify-content: flex-end;
     }
-
-    /*#mobile_nav_trigger:checked ~ .nav-menu-bg .header__burger-box {
-        background: url("../images/common/burger_open.png") center top no-repeat;
-    }*/
 
     #nav:not(:target) {
         right: -100%;
@@ -1531,7 +1411,7 @@ html,body {
     }
 
     .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
-    .biography, .science, .interaction__text, .interaction__links, .interaction__external {
+    .biography, .science, .interaction, .interaction__links, .interaction__external {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1559,6 +1439,7 @@ html,body {
     .biography__more {
         display: block;
         text-decoration: underline;
+        color: #3c3c3c;
     }
 
     .biography__hidden {
@@ -1623,6 +1504,7 @@ html,body {
     .col-4 {
         width: 45%;
     }
+
     .col-8 {
         width: 55%;
     }
@@ -1637,6 +1519,15 @@ html,body {
         margin: 0;
     }
 
+    .header__links {
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .links__btn {
+        top: 30px;
+    }
+
     .nav-menu-bg {
         order: 1;
     }
@@ -1644,10 +1535,6 @@ html,body {
     .about__bg-color {
         order: 2;
     }
-
-    /*.about {
-        background: linear-gradient(90deg, #80705D 0%, rgba(128, 112, 93, 0) 103.39%);
-    }*/
 
     .about__bg-color {
         background-color: transparent;
@@ -1667,22 +1554,16 @@ html,body {
         display: none;
     }
 
-    /*.about__section__posts {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about__section__posts>li {
-        width: 100%;
-        text-align: left;
-    }*/
-
     .about__section__posts li {
         line-height: 113.68%;
     }
 
     .about__section__posts>li::before {
         display: none;
+    }
+
+    .events__header {
+        margin-top: 45px;
     }
 }
 
@@ -1732,10 +1613,6 @@ html,body {
     .about__section__posts {
         padding-top: 0;
     }
-
-    /*.about__header {
-        font-size: 24px;
-    }*/
 }
 
 @media (max-width: 450px) {
@@ -1756,9 +1633,9 @@ html,body {
 }
 
 @media (max-width: 400px) {
-    /*.interaction, .flippingbook {
-        margin-top: 0;
-    }*/
+    .about-bg {
+        max-height: 281px;
+    }
 
     .about__header {
         padding-top: 10px;
@@ -1774,8 +1651,37 @@ html,body {
     .header {
         padding: 0 60px;
     }
+
+    .about-bg {
+        max-height: 242px;
+    }
+
     .about__header {
         font-size: 20px;
+    }
+
+    .container,  .feedback, .interaction, .projects__pattern, .rf-osteopathy {
+        margin-top: 50px;
+    }
+
+    .events__header {
+        margin-top: 30px;
+    }
+
+    .osteopathy {
+        padding-top: 25px;
+    }
+
+    .projects__item {
+        margin-bottom: 0;
+    }
+
+    .feedback__header {
+        margin-bottom: 40px;
+    }
+
+    .footer-bg {
+        margin-top: 45px;
     }
 }
 
