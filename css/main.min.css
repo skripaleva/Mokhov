@@ -1251,13 +1251,19 @@ html,body {
     display: none;
 }
 
-/*.flippingbook {
+.flippingbook {
     text-align: center;
     margin-top: 65px;
-}*/
+}
 
 .links__btn {
     top: 50px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 960px;
+    min-height: 500px;
 }
 
 @media (max-width: 900px) {
@@ -1276,6 +1282,10 @@ html,body {
 
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 20px;
+    }
+
+    iframe {
+        min-height: 450px;
     }
 }
 
@@ -1472,14 +1482,23 @@ html,body {
     .footer>li::after {
         display: none;
     }
+
+    iframe {
+        min-height: 400px;
+    }
 }
 
 @media (max-width: 660px) {
     .col-4 {
         width: 40%;
     }
+
     .col-8 {
         width: 60%;
+    }
+
+    iframe {
+        min-height: 350px;
     }
 }
 
@@ -1565,6 +1584,10 @@ html,body {
     .events__header {
         margin-top: 45px;
     }
+
+    iframe {
+        min-height: 300px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -1574,6 +1597,10 @@ html,body {
 
     .about__section {
         padding-top: 0;
+    }
+
+    iframe {
+        min-height: 250px;
     }
 }
 
@@ -1642,8 +1669,13 @@ html,body {
         font-size: 22px;
         padding-bottom: 0;
     }
+    
     .about__section__posts li {
         line-height: 113.68%;
+    }
+
+    iframe {
+        min-height: 200px;
     }
 }
 
