@@ -1266,9 +1266,6 @@ html,body {
     min-height: 500px;
 }*/
 
-.active {
-    display: flex;
-}
 
 @media (max-width: 900px) {
     .about__header {
@@ -1747,5 +1744,6 @@ html,body {
     overflow: hidden;
 }
 
-
-
+.active {
+    display: flex;
+}
