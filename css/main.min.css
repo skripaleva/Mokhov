@@ -1304,11 +1304,12 @@ iframe {
 
     .header__burger-box, .mobile-menu-close-btn {
         display: flex;
-        /*position: fixed;*/
+        position: fixed;
         width: 36px;
         height: 24px;
         margin-right: 22px;
         cursor: pointer;
+        z-index: 11111;
     }
 
     .header__burger-box {
@@ -1344,12 +1345,18 @@ iframe {
     }
 
     .mobile-menu-close-btn {
+        /*position: absolute;
+        right: 0;*/
         background: url("../images/common/burger_open.png") center top no-repeat;
-        margin: 20px 22px;
+        margin: 20px 25px;
+        align-self: flex-end
     }
 
     .mobile_nav_menu {
-        margin-left: 52px;
+        padding-left: 52px;
+        height: 90%;
+        margin-top: auto;
+        overflow: scroll;
     }
 
     .mobile-menu-item {
@@ -1365,12 +1372,19 @@ iframe {
         font: 18px / 20px "Fontatigo 4F", sans-serif;
     }
 
+
     .mobile-menu-list {
-        display: flex;
-        flex-direction: column;
-        font-family: "Open Sans","sans-serif";
-        align-self: flex-end;
         position: fixed;
+        right: 0;
+        top: 0;
+        font-family: "Open Sans","sans-serif";
+        width: 265px;
+        height: 664px;
+        max-height: 100%;
+        background: rgba(85, 112, 128, 0.83);
+        box-shadow: -8px 0px 4px rgba(0, 0, 0, 0.25);
+        display: none;
+        flex-direction: column;
         z-index: 1111;
     }
 
@@ -1379,7 +1393,7 @@ iframe {
         justify-content: flex-end;
     }
 
-    #nav:not(:target) {
+    /*#nav:not(:target) {
         right: -100%;
         transition: right 1.5s;
     }
@@ -1388,13 +1402,10 @@ iframe {
         right: 0;
         top: 0;
         transition: right 1s;
-    }
+    }*/
 
-    .mobile-menu-list {
-        width: 265px;
-        height: 664px;
-        background: rgba(85, 112, 128, 0.83);
-        box-shadow: -8px 0px 4px rgba(0, 0, 0, 0.25);
+    .active {
+        display: block;
     }
 
     .mobile-menu-link {
@@ -1669,7 +1680,7 @@ iframe {
         font-size: 22px;
         padding-bottom: 0;
     }
-    
+
     .about__section__posts li {
         line-height: 113.68%;
     }
@@ -1726,3 +1737,12 @@ iframe {
         display: none;
     }
 }
+
+.modal-open {
+    overflow: hidden;
+}
+
+.active {
+    display: flex;
+}
+
