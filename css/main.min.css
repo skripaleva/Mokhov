@@ -194,7 +194,7 @@ html,body {
 
 .about__header {
     padding-top: 40px;
-    padding-left: 30px;
+    padding-left: 70px;
     padding-bottom: 30px;
     font: italic 40px "Georgia",Serif;
     color: #fff;
@@ -241,6 +241,23 @@ html,body {
     top: 0;
     left: 50%;
 }
+
+.about__text-mob {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7C6E5E;
+    margin: 25px 22px 0 30px;
+    display: none;
+}
+
+.about__text-mob p {
+    padding-bottom: 10px;
+}
+
+
 
 .biography {
     padding: 0 20px 0 40px;
@@ -293,10 +310,9 @@ html,body {
     display: block;
     box-sizing: border-box;
     max-width: 960px;
-    margin: 0 auto;
-    padding: 0 40px;
     position: relative;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 60px;
 }
 
 .events--without-padding {
@@ -332,11 +348,11 @@ html,body {
 .events__btn {
     position: absolute;
     top: 100px;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border: none;
-    border-top: 1px solid #80705d;
-    border-left: 1px solid #80705d;
+    border-bottom: 5px solid #9C9080;
+    border-left: 5px solid #9C9080;
     padding: 0;
     background: none;
 }
@@ -352,17 +368,17 @@ html,body {
 }
 
 .events__btn--left {
-    left: 0;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    left: 38px;
+    -webkit-transform: rotate(48deg) skew(10deg);
+    -ms-transform: rotate(48deg) skew(10deg);
+    transform: rotate(48deg) skew(10deg);
 }
 
 .events__btn--right {
-    right: 0;
-    -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(135deg);
+    right: 38px;
+    -webkit-transform: rotate(228deg) skew(10deg);
+    -ms-transform: rotate(228deg) skew(10deg);
+    transform: rotate(228deg) skew(10deg);
 }
 
 .feedback {
@@ -577,9 +593,9 @@ html,body {
     display: block;
     box-sizing: border-box;
     max-width: 960px;
-    margin: 0 auto;
     position: relative;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header--without-padding {
@@ -1285,9 +1301,16 @@ html,body {
         font-size: 20px;
     }
 
+
     /*iframe {
         min-height: 450px;
     }*/
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding: 0 60px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1346,11 +1369,11 @@ html,body {
     }
 
     .mobile-menu-close-btn {
-        /*position: absolute;
-        right: 0;*/
+        position: absolute;
+        right: 22px;
         background: url("../images/common/burger_open.png") center top no-repeat;
-        margin: 20px 25px;
-        align-self: flex-end
+        margin: 20px 0;
+        align-self: flex-end;
     }
 
     .mobile_nav_menu {
@@ -1415,6 +1438,17 @@ html,body {
         text-transform: uppercase;
     }
 
+    .events {
+        padding: 0 42px 0 50px;
+    }
+
+    .events__btn--left {
+        left: 28px;
+    }
+    .events__btn--right {
+        right: 20px;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -1426,12 +1460,29 @@ html,body {
 
     .osteopathy__left-panel {
         text-align: center;
+        padding: 20px 22px 20px 30px;
     }
 
     .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
-    .biography, .science, .interaction, .interaction__links, .interaction__external {
+    .biography, .science, .interaction {
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 22px;
+    }
+
+    .projects__item>.col-4 {
+        padding-left: 30px;
+    }
+
+    .interaction__text {
+        padding: 0;
+    }
+
+    .interaction__external {
+        padding-left: 0;
+    }
+
+    .projects__item>.col-8 {
+        padding-right: 22px;
     }
 
     .osteopathy__right-panel {
@@ -1518,6 +1569,7 @@ html,body {
 
     .feedback {
         background: none;
+        padding-left: 8px;
     }
 
     .feedback__form {
@@ -1525,7 +1577,7 @@ html,body {
     }
 
     .feedback__form label {
-        width: 80%;
+        width: calc(100% - 52px);
         margin: 0 auto;
     }
 
@@ -1565,7 +1617,11 @@ html,body {
     }
 
     .about__bg-color {
-        order: 2;
+        order: 1;
+    }
+
+    .about__text-mob {
+       display: block;
     }
 
     .about__bg-color {
@@ -1618,11 +1674,11 @@ html,body {
 }
 
 @media (max-width: 500px) {
-    .osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
+    /*.osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
     .biography, .science, .interaction__text, .interaction__links, .interaction__external {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    }*/
 
     .projects__row {
         flex-direction: column;
@@ -1634,8 +1690,12 @@ html,body {
 
     .col-8 {
         width: 100%;
-        padding: 0 20px;
+        /*padding: 0 20px;*/
         margin-top: 30px;
+    }
+
+    .projects__item>.col-8 {
+        padding-left: 30px;
     }
 
     .projects__item__logo {
@@ -1687,6 +1747,10 @@ html,body {
         line-height: 113.68%;
     }
 
+    .header {
+        padding: 0 80px;
+    }
+
     iframe {
         /*min-height: 200px;*/
     }
@@ -1731,10 +1795,6 @@ html,body {
 }
 
 @media (max-width: 310px) {
-    .header {
-        padding: 0 60px;
-    }
-
     .about__section {
         display: none;
     }
