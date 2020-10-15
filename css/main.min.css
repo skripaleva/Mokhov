@@ -1327,17 +1327,15 @@ html,body {
     }
 
     .header__burger-box, .mobile-menu-close-btn {
-        display: flex;
+        /*display: flex;*/
         position: fixed;
         width: 36px;
         height: 24px;
         /*margin-right: 22px;*/
         cursor: pointer;
         z-index: 11111;
-
-        position: absolute;
         right: 22px;
-        margin: 20px 0;
+        top: 20px;
         align-self: flex-end;
     }
 
@@ -1374,11 +1372,11 @@ html,body {
     }
 
     .mobile-menu-close-btn {
-        position: absolute;
-        right: 22px;
+        /*position: absolute;
+        right: 22px;*/
         background: url("../images/common/burger_open.png") center top no-repeat;
-        margin: 20px 0;
-        align-self: flex-end;
+        /*margin: 20px 0;
+        align-self: flex-end;*/
     }
 
     .mobile_nav_menu {
