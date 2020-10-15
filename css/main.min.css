@@ -1331,9 +1331,14 @@ html,body {
         position: fixed;
         width: 36px;
         height: 24px;
-        margin-right: 22px;
+        /*margin-right: 22px;*/
         cursor: pointer;
         z-index: 11111;
+
+        position: absolute;
+        right: 22px;
+        margin: 20px 0;
+        align-self: flex-end;
     }
 
     .header__burger-box {
