@@ -1512,18 +1512,24 @@ html,body {
         display: block;
         text-decoration: underline;
         color: #3c3c3c;
+        cursor: pointer;
+    }
+
+    .biography__more:hover {
+        text-decoration: none;
+        transition: 0.3s;
     }
 
     .biography__hidden {
         display: none;
     }
 
-    .biography__more:focus ~ .biography__hidden,
+    /*.biography__more:focus ~ .biography__hidden,
     .biography__more:active ~ .biography__hidden,
     .biography__hidden:hover
     {
         display: block;
-    }
+    }*/
 
     .interaction__text {
         margin-top: 30px;
