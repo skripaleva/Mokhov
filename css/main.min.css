@@ -1381,7 +1381,7 @@ html,body {
 
     .mobile_nav_menu {
         padding-left: 52px;
-        height: 90%;
+        height: calc(100% - 65px);
         margin-top: auto;
         overflow: scroll;
     }
