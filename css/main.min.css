@@ -1328,7 +1328,8 @@ html,body {
     }
 
     .header__burger-box, .mobile-menu-close-btn {
-        position: absolute;
+        /*display: flex;*/
+        position: fixed;
         width: 36px;
         height: 24px;
         /*margin-right: 22px;*/
