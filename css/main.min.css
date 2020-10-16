@@ -534,6 +534,7 @@ html,body {
 }
 
 .nav-menu-bg {
+    position: relative;
     background-color: #557080;
     z-index: 999;
 }
