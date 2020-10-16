@@ -1511,7 +1511,7 @@ html,body {
     .biography__more {
         display: block;
         text-decoration: underline;
-        color: #3c3c3c;
+        /*color: #3c3c3c;*/
         cursor: pointer;
     }
 
@@ -1522,6 +1522,10 @@ html,body {
 
     .biography__hidden {
         display: none;
+    }
+
+    .biography__more:active {
+        text-decoration: underline;
     }
 
     /*.biography__more:focus ~ .biography__hidden,
