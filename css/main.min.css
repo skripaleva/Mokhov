@@ -1509,24 +1509,22 @@ html,body {
     }
 
     .biography__more {
-        display: block;
+        display: inline-block;
         text-decoration: underline;
-        /*color: #3c3c3c;*/
+        color: #3c3c3c;
+        font: lighter 14px/19px "Open Sans","sans-serif";
         cursor: pointer;
     }
 
-    .biography__more:hover {
+    /*.biography__more:hover {
         text-decoration: none;
         transition: 0.3s;
-    }
+    }*/
 
     .biography__hidden {
         display: none;
     }
 
-    .biography__more:active {
-        text-decoration: underline;
-    }
 
     /*.biography__more:focus ~ .biography__hidden,
     .biography__more:active ~ .biography__hidden,
