@@ -534,7 +534,6 @@ html,body {
 }
 
 .nav-menu-bg {
-    /*position: relative;*/
     background-color: #557080;
     z-index: 999;
 }
@@ -1329,7 +1328,7 @@ html,body {
 
     .header__burger-box, .mobile-menu-close-btn {
         /*display: flex;*/
-        position: fixed;
+        position: absolute;
         width: 36px;
         height: 24px;
         /*margin-right: 22px;*/
