@@ -258,7 +258,6 @@ html,body {
 }
 
 
-
 .biography {
     padding: 0 20px 0 40px;
 }
@@ -653,8 +652,6 @@ html,body {
     display: none;
 }
 
-
-
 .header__links__item img {
     display: inline-block;
     float: left;
@@ -717,7 +714,6 @@ html,body {
 .header__burger img {
     display: none;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .interaction {
@@ -1133,7 +1129,6 @@ html,body {
     padding: 0 !important;
 }
 
-
 .rf-osteopathy__article {
     padding-left: 40px;
     padding-right: 30px;
@@ -1282,13 +1277,6 @@ html,body {
     top: 50px;
 }
 
-/*iframe {
-    width: 100%;
-    max-width: 960px;
-    min-height: 500px;
-}*/
-
-
 @media (max-width: 900px) {
     .about__header {
         font-size: 32px;
@@ -1306,11 +1294,6 @@ html,body {
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 20px;
     }
-
-
-    /*iframe {
-        min-height: 450px;
-    }*/
 }
 
 @media (max-width: 900px) {
@@ -1333,11 +1316,9 @@ html,body {
     }
 
     .header__burger-box, .mobile-menu-close-btn {
-        /*display: flex;*/
         position: absolute;
         width: 36px;
         height: 24px;
-        /*margin-right: 22px;*/
         cursor: pointer;
         z-index: 11111;
         right: 22px;
@@ -1345,9 +1326,6 @@ html,body {
         align-self: flex-end;
     }
 
-    /*.header__burger-box {
-        background: url("../images/common/burger_close.png") center top no-repeat;
-    }*/
     .header__burger img {
         display: block;
     }
@@ -1380,14 +1358,6 @@ html,body {
         display: none;
     }
 
-    /*.mobile-menu-close-btn {
-        /*position: absolute;
-        right: 22px;*/
-        /*background: url("../images/common/burger_open.png") center top no-repeat;*/
-        /*margin: 20px 0;
-        align-self: flex-end;
-    }*/
-
     .mobile_nav_menu {
         padding-left: 52px;
         height: calc(100% - 65px);
@@ -1408,7 +1378,6 @@ html,body {
         font: 18px / 20px "Fontatigo 4F", sans-serif;
     }
 
-
     .mobile-menu-list {
         position: fixed;
         right: 0;
@@ -1428,17 +1397,6 @@ html,body {
         display: flex;
         justify-content: flex-end;
     }
-
-    /*#nav:not(:target) {
-        right: -100%;
-        transition: right 1.5s;
-    }
-
-    #nav:target {
-        right: 0;
-        top: 0;
-        transition: right 1s;
-    }*/
 
     .mobile-menu-link {
         text-decoration: none;
@@ -1525,22 +1483,9 @@ html,body {
         cursor: pointer;
     }
 
-    /*.biography__more:hover {
-        text-decoration: none;
-        transition: 0.3s;
-    }*/
-
     .biography__hidden {
         display: none;
     }
-
-
-    /*.biography__more:focus ~ .biography__hidden,
-    .biography__more:active ~ .biography__hidden,
-    .biography__hidden:hover
-    {
-        display: block;
-    }*/
 
     .interaction__text {
         margin-top: 30px;
@@ -1561,10 +1506,6 @@ html,body {
     .footer>li::after {
         display: none;
     }
-
-    /*iframe {
-        min-height: 400px;
-    }*/
 }
 
 @media (max-width: 660px) {
@@ -1575,10 +1516,6 @@ html,body {
     .col-8 {
         width: 60%;
     }
-
-    /*iframe {
-        min-height: 350px;
-    }*/
 }
 
 @media (max-width: 600px) {
@@ -1690,10 +1627,6 @@ html,body {
     .events__header {
         margin-top: 45px;
     }
-
-    /*iframe {
-        min-height: 300px;
-    }*/
 }
 
 @media (max-width: 550px) {
@@ -1704,19 +1637,9 @@ html,body {
     .about__section {
         padding-top: 0;
     }
-
-    /*iframe {
-        min-height: 250px;
-    }*/
 }
 
 @media (max-width: 500px) {
-    /*.osteopathy__right-panel, .rf-osteopathy__links, .rf-osteopathy__article,
-    .biography, .science, .interaction__text, .interaction__links, .interaction__external {
-        padding-left: 20px;
-        padding-right: 20px;
-    }*/
-
     .projects__row {
         flex-direction: column;
     }
@@ -1727,7 +1650,6 @@ html,body {
 
     .col-8 {
         width: 100%;
-        /*padding: 0 20px;*/
         margin-top: 30px;
     }
 
@@ -1786,10 +1708,6 @@ html,body {
 
     .header {
         padding: 0 80px;
-    }
-
-    iframe {
-        /*min-height: 200px;*/
     }
 }
 
