@@ -330,16 +330,19 @@ html,body {
     padding: 0 8px;
 }
 
-.events__list__item>a {
+.events__list__item {
     display: block;
     padding: 10px;
     font: lighter 14px/19px "Open Sans","sans-serif";
     color: #3c3c3c;
-    text-decoration: none;
     word-wrap: break-word;
 }
 
-.events__list__item>a:hover {
+.events__list__item>a {
+    color: #c1ab81;
+}
+
+.events__list__item:hover {
     background-color: rgba(193,171,129,0.2);
     transition: 0.3s;
 }
