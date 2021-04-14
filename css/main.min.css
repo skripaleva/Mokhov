@@ -196,7 +196,7 @@ html,body {
     padding-top: 40px;
     padding-left: 70px;
     padding-bottom: 30px;
-    font: italic 40px "Georgia",Serif;
+    font: italic 40px "Georgia", serif;
     color: #fff;
     text-shadow: -2px 1px 0 #c1ab81;
 }
@@ -212,7 +212,7 @@ html,body {
 }
 
 .about__section__text {
-    font: normal 18px/21px "Open Sans","sans-serif";
+    font: normal 18px/21px "Open Sans", sans-serif;
     color: #fff;
 }
 
@@ -231,7 +231,7 @@ html,body {
     vertical-align: top;
     width: 33%;
     padding-top: 14px;
-    font: normal 14px/16px "Open Sans","sans-serif";
+    font: normal 14px/16px "Open Sans", sans-serif;
     color: #fff;
 }
 
@@ -263,7 +263,7 @@ html,body {
 }
 
 .biography__header h2 {
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     text-align: center;
 }
@@ -288,7 +288,7 @@ html,body {
 
 .biography__text p {
     margin-bottom: 10px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
 }
 
@@ -297,7 +297,7 @@ html,body {
 }
 
 .biography__footer>a {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #c1ab81;
 }
 
@@ -321,7 +321,7 @@ html,body {
 .events__header {
     margin-top: 65px;
     padding-bottom: 10px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     text-align: center;
 }
@@ -333,7 +333,7 @@ html,body {
 .events__list__item {
     display: block;
     padding: 10px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
     word-wrap: break-word;
 }
@@ -399,7 +399,7 @@ html,body {
 
 .feedback__header {
     margin-bottom: 60px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     text-align: center;
 }
@@ -427,7 +427,7 @@ html,body {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     padding-right: 10px;
-    font: lighter 12px/23px "Open Sans","sans-serif";
+    font: lighter 12px/23px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -436,7 +436,7 @@ html,body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     border: 1px solid #c1ab81;
-    font: lighter 12px/23px "Open Sans","sans-serif";
+    font: lighter 12px/23px "Open Sans", sans-serif;
 }
 
 .feedback__form__area {
@@ -445,7 +445,7 @@ html,body {
 }
 
 .feedback__form__area>span {
-    font: lighter 12px/23px "Open Sans","sans-serif";
+    font: lighter 12px/23px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -453,7 +453,7 @@ html,body {
     display: block;
     width: 100%;
     border: 1px solid #c1ab81;
-    font: lighter 12px/19px "Open Sans","sans-serif";
+    font: lighter 12px/19px "Open Sans", sans-serif;
 }
 
 .feedback__form__footer {
@@ -466,7 +466,7 @@ html,body {
     padding: 0 20px;
     border: none;
     background-color: #d16d4f;
-    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    font: normal 14px/40px "Fontatigo 4F", sans-serif;
     color: #fff;
 }
 
@@ -511,7 +511,7 @@ html,body {
     content: "•";
     display: inline-block;
     width: 80px;
-    font: normal 12px/16px "sans-serif";
+    font: normal 12px/16px sans-serif;
     color: #fff;
 }
 
@@ -520,7 +520,7 @@ html,body {
 }
 
 .footer__link {
-    font: lighter 12px/16px "Open Sans","sans-serif";
+    font: lighter 12px/16px "Open Sans", sans-serif;
     color: #c1ab81;
     text-decoration: none;
 }
@@ -566,7 +566,7 @@ html,body {
     position: absolute;
     top: 0;
     right: 17px;
-    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    font: normal 14px/40px "Fontatigo 4F", sans-serif;
     color: white;
 }
 
@@ -581,7 +581,7 @@ html,body {
 .nav-menu>ul>li>a {
     display: block;
     padding: 0 4px;
-    font: normal 14px/40px "Fontatigo 4F","sans-serif";
+    font: normal 14px/40px "Fontatigo 4F", sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -669,7 +669,7 @@ html,body {
 
 .header__links__item span {
     display: inline-block;
-    font: lighter 12px/16px "Open Sans","sans-serif";
+    font: lighter 12px/16px "Open Sans", sans-serif;
     color: #3a3a3a;
     text-decoration: none;
     position: relative;
@@ -738,7 +738,7 @@ html,body {
 }
 
 .interaction__header h2 {
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     text-align: center;
 }
@@ -753,13 +753,13 @@ html,body {
 
 .interaction__text>p {
     margin-bottom: 10px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
 }
 
 .interaction__external {
     padding: 20px 20px 0 160px;
-    font: 600 12px/19px "Open Sans","sans-serif";
+    font: 600 12px/19px "Open Sans", sans-serif;
     color: #80705d;
     text-align: right;
 }
@@ -778,12 +778,12 @@ html,body {
     position: absolute;
     left: 0;
     top: 4px;
-    font: normal 14px/19px "sans-serif";
+    font: normal 14px/19px sans-serif;
     color: #c1ab81;
 }
 
 .interaction__links>li>a {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #c1ab81;
     text-decoration: none;
 }
@@ -809,7 +809,7 @@ html,body {
 
 .my-blog__header {
     margin-bottom: 15px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #9ca9b4;
     text-align: center;
 }
@@ -826,12 +826,12 @@ html,body {
 
 .my-blog__post__header {
     margin-bottom: 25px;
-    font: 600 24px/30px "Open Sans","sans-serif";
+    font: 600 24px/30px "Open Sans", sans-serif;
     color: #000;
 }
 
 .my-blog__post__text {
-    font: lighter 12px/15px "Open Sans","sans-serif";
+    font: lighter 12px/15px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -852,7 +852,7 @@ html,body {
 .my-blog__post__author__link {
     display: block;
     padding-right: 10px;
-    font: bold 10px/15px "Verdana","sans-serif";
+    font: bold 10px/15px "Verdana", sans-serif;
     color: #4566b8;
     text-align: right;
 }
@@ -860,13 +860,13 @@ html,body {
 .my-blog__post__author__dt {
     display: block;
     padding-right: 5px;
-    font: normal 10px/15px "Verdana","sans-serif";
+    font: normal 10px/15px "Verdana", sans-serif;
     color: #000;
     text-align: right;
 }
 
 .my-blog__post__footer__tags {
-    font: lighter 12px/15px "Open Sans","sans-serif";
+    font: lighter 12px/15px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -888,7 +888,7 @@ html,body {
 
 .my-blog__pagination__pre,.my-blog__pagination__next {
     position: relative;
-    font: 600 12px/15px "Open Sans","sans-serif";
+    font: 600 12px/15px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -936,7 +936,7 @@ html,body {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #ff965c;
 }
 
@@ -946,7 +946,7 @@ html,body {
 }
 
 .osteopathy__left-panel__quote {
-    font: italic 21px/28px "Open Sans","sans-serif";
+    font: italic 21px/28px "Open Sans", sans-serif;
     color: #c1ab81;
     quotes: "\00ab" "\00bb";
 }
@@ -956,7 +956,7 @@ html,body {
 }
 
 .osteopathy__left-panel__author>small {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #c1ab81;
 }
 
@@ -966,13 +966,13 @@ html,body {
 }
 
 .osteopathy__briefly__header {
-    font: italic 21px/28px "Open Sans","sans-serif";
+    font: italic 21px/28px "Open Sans", sans-serif;
     color: white;
     margin-bottom: 15px;
 }
 
 .osteopathy__briefly__text {
-    font: lighter 14px/24px "Open Sans","sans-serif";
+    font: lighter 14px/24px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -982,7 +982,7 @@ html,body {
 }
 
 .osteopathy__briefly__details>p {
-    font: lighter 12px/19px "Open Sans","sans-serif";
+    font: lighter 12px/19px "Open Sans", sans-serif;
     color: #000;
 }
 
@@ -991,7 +991,7 @@ html,body {
     margin-top: 10px;
     border: 1px solid #fff;
     padding: 10px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #fff;
 }
 
@@ -1034,7 +1034,7 @@ html,body {
 
 .projects__header {
     margin-bottom: 15px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #9ca9b4;
     text-align: center;
 }
@@ -1067,7 +1067,7 @@ html,body {
 
 .projects__item__header {
     margin-bottom: 25px;
-    font: 600 14px/19px "Open Sans","sans-serif";
+    font: 600 14px/19px "Open Sans", sans-serif;
     color: #80705d;
 }
 
@@ -1084,7 +1084,7 @@ html,body {
 
 .projects__item__info {
     margin-bottom: 25px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
 }
 
@@ -1140,7 +1140,7 @@ html,body {
 .rf-osteopathy__article__header {
     position: relative;
     padding-left: 70px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     margin-bottom: 15px;
 }
@@ -1156,7 +1156,7 @@ html,body {
 }
 
 .rf-osteopathy__article__text {
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
 }
 
@@ -1172,7 +1172,7 @@ html,body {
 .rf-osteopathy__links__header {
     position: relative;
     padding-left: 74px;
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     margin-bottom: 15px;
 }
@@ -1192,7 +1192,7 @@ html,body {
 }
 
 .rf-osteopathy__links__list>li>a {
-    font: 600 14px/19px "Open Sans","sans-serif";
+    font: 600 14px/19px "Open Sans", sans-serif;
     color: #80705d;
     text-decoration: none;
 }
@@ -1212,14 +1212,14 @@ html,body {
 }
 
 .science__header h2 {
-    font: normal 24px/28px "Fontatigo 4F","sans-serif";
+    font: normal 24px/28px "Fontatigo 4F", sans-serif;
     color: #80705d;
     text-align: center;
 }
 
 .science__text>p {
     margin-bottom: 10px;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #3c3c3c;
 }
 
@@ -1230,7 +1230,7 @@ html,body {
 }
 
 .science__footer>p {
-    font: 600 14px/19px "Open Sans","sans-serif";
+    font: 600 14px/19px "Open Sans", sans-serif;
     color: #80705d;
 }
 
@@ -1244,7 +1244,7 @@ html,body {
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    font: lighter 14px/19px "Open Sans","sans-serif";
+    font: lighter 14px/19px "Open Sans", sans-serif;
     color: #80705d;
     text-align: center;
     text-decoration: none;
@@ -1293,7 +1293,7 @@ html,body {
 .news__title {
     position: relative;
     text-align: center;
-    font: normal 24px/31px "Fontatigo 4F","sans-serif";
+    font: normal 24px/31px "Fontatigo 4F", sans-serif;
     color: #6C6964;
     margin-bottom: 37px;
 }
@@ -1343,9 +1343,7 @@ html,body {
 
 .news__card-date {
     width: 90px;
-    font: normal bold 8px/12px "Open Sans","sans-serif";
-    font-style: normal;
-    font-weight: bold;
+    font: normal bold 8px/12px "Open Sans", sans-serif;
     color: #EBEBEB;
     background-color: #6C6864;
     padding: 5px 11px;
@@ -1357,13 +1355,13 @@ html,body {
 }
 
 .news__card h3 {
-    font: normal 16px/19px "Open Sans","sans-serif";
+    font: normal 16px/19px "Open Sans", sans-serif;
     margin-bottom: 5px;
     color: #2D3748
 }
 
 .news__card-text {
-    font: normal 14px/21px "Open Sans","sans-serif";
+    font: normal 14px/21px "Open Sans", sans-serif;
     color: #718096;
 }
 
@@ -1473,7 +1471,7 @@ html,body {
         position: fixed;
         right: 0;
         top: 0;
-        font-family: "Open Sans","sans-serif";
+        font-family: "Open Sans", sans-serif;
         width: 265px;
         height: 664px;
         max-height: 100%;
@@ -1570,7 +1568,7 @@ html,body {
         display: inline-block;
         text-decoration: underline;
         color: #3c3c3c;
-        font: lighter 14px/19px "Open Sans","sans-serif";
+        font: lighter 14px/19px "Open Sans", sans-serif;
         cursor: pointer;
     }
 
@@ -1854,6 +1852,86 @@ html,body {
     display: flex;
 }
 
+/*css for news-page*/
 
+.article {
+    margin: 0 auto;
+    max-width: 960px;
+    margin-bottom: 50px;
+}
+
+.article__title {
+    height: 461px;
+    background: url("../images/blocks/news/news-title.png") center top no-repeat;
+    text-align: center;
+    padding-top: 215px;
+}
+
+.article__title span {
+    width: 123px;
+    height: 23px;
+    font: normal 700 17px/25px "Open Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    background-color: #6C6864;
+    padding: 0 18px;
+}
+
+.article__title h1 {
+    font: normal 500 44px/52px "Open Sans", sans-serif;
+    color: #FFF;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.article__title time {
+    font: normal 700 17px/25px "Open Sans", sans-serif;
+    color: #FFF;
+}
+
+.article__scroll {
+    width: 20px;
+    height: 18px;
+    background: url("../images/blocks/news/scroll.svg") center top no-repeat;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+.article__text {
+    padding: 0 80px;
+    padding-top: 30px;
+    font: normal 400 18px/27px "Open Sans", sans-serif;
+    color: #718096;
+}
+
+.article__text p {
+    margin-bottom: 18px;
+}
+
+.article__text-incut {
+    position: relative;
+    margin-top: 28px;
+    margin-bottom: 15px;
+    padding: 1px 0;
+    margin-left: 62px;
+    font: normal 400 16px/24px "Open Sans", sans-serif;
+}
+
+.article__text-incut::before {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: -8px;
+    border-left: 4px solid #0D6074;
+    width: 4px;
+    height: 100%;
+}
+
+.article__footer {
+    width: auto;
+    height: 42px;
+    background: url("../images/blocks/news/pattern.png") center top;
+    background-repeat: repeat;
+}
 
 
