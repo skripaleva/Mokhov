@@ -5,6 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -1315,6 +1316,10 @@ html,body {
     grid-row-gap: 28px;
 }
 
+.news__main>a {
+    text-decoration: none;
+}
+
 .news__card {
     position: relative;
     max-height: 347px;
@@ -1323,13 +1328,27 @@ html,body {
     padding: 4px;
 }
 
-.news__card:nth-child(2n):before {
+
+.news__main a:nth-child(2n) .news__card:before {
     position: absolute;
+    top: 0;
+    left: 0;
     content: '';
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(225, 225, 225, 0) 69.98%, #fff 94.62%);
+    background: linear-gradient(180deg, rgba(225, 225, 225, 0) 69.98%, #fff 100%);
 }
+
+.news__card:hover {
+    background-color: #f8f8f8;
+    transition: 0.3s;
+}
+
+/*.news__card:hover:nth-child(5), .news__card:hover:nth-child(6) {*/
+/*    background-color: rgba(193,171,129,0.2);*/
+/*    transition: 0.3s;*/
+/*}*/
+
 
 .news__card:after {
     position: absolute;
@@ -1897,6 +1916,11 @@ html,body {
     margin-top: 34px;
 }
 
+.article__scroll:hover {
+    transform: translateY(1px);
+    transition: 0.3s;
+}
+
 .article__text {
     padding: 0 80px;
     padding-top: 30px;
@@ -1998,3 +2022,13 @@ article ul {
     text-align: center;
 }
 
+.pagination:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/*.header__links__item:hover {*/
+/*    background-color: rgba(193,171,129,0.2);*/
+/*    transition: 0.3s;*/
+/*}*/
