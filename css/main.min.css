@@ -2028,7 +2028,40 @@ article ul {
     cursor: pointer;
 }
 
-/*.header__links__item:hover {*/
-/*    background-color: rgba(193,171,129,0.2);*/
-/*    transition: 0.3s;*/
-/*}*/
+@media (max-width: 768px) {
+    .article__text {
+        padding-left: 30px;
+        padding-right: 22px;
+    }
+
+    .article__text-images img {
+        height: 204px;
+        width: auto;
+    }
+
+    .article__title {
+        padding-top: 235px;
+    }
+
+    .article__title h1 {
+        font: normal 500 36px/44px "Open Sans", sans-serif;
+    }
+
+    .article__scroll {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .article__title {
+        padding-top: 260px;
+    }
+
+    .article__title h1 {
+        font: normal 500 32px/40px "Open Sans", sans-serif;
+    }
+
+    .article__scroll {
+        margin-top: 20px;
+    }
+}
