@@ -1908,6 +1908,10 @@ html,body {
     margin-bottom: 18px;
 }
 
+.article__text-main a, .article__text-incut a {
+    color: #718096;
+}
+
 .article__text-incut {
     position: relative;
     margin-top: 28px;
@@ -1932,6 +1936,65 @@ html,body {
     height: 42px;
     background: url("../images/blocks/news/pattern.png") center top;
     background-repeat: repeat;
+    margin-bottom: 88px;
 }
 
+.article-short .article__title {
+    background: url("../images/blocks/news/news-title.png") center center no-repeat;
+    height: 518px;
+    background-size: cover;
+    padding-top: 325px;
+}
+
+.article-withoutBG .article__title {
+    background: none;
+    padding-top: 6px;
+    height: 210px;
+}
+
+.article-withoutBG h1, .article-withoutBG time {
+    color: #557080;
+}
+
+.article h2 {
+    font: normal bold 24px/32px "Open Sans", sans-serif;
+    text-align: center;
+    width: 80%;
+    margin: 42px auto 17px auto;
+}
+
+article ul {
+    margin-bottom: 20px;
+}
+
+.article li {
+    padding: 5px 0;
+    list-style-type: disc;
+    margin-left: 20px;;
+}
+
+.article__text-images {
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+.article__text-img {
+    width: 291px;
+    height: 204px;
+}
+
+.article__text-img2 {
+    width: 149px;
+    height: 204px;
+    margin: 0 5px;
+}
+
+.article__text-imgBig {
+    width: 563px;
+    height: 403px;
+}
+
+.pagination {
+    text-align: center;
+}
 
