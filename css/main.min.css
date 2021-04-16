@@ -1961,6 +1961,23 @@ html,body {
     background: url("../images/blocks/news/pattern.png") center top;
     background-repeat: repeat;
     margin-bottom: 88px;
+    text-align: center;
+}
+
+.article__footer img {
+    position: relative;
+    top: -10px;
+}
+
+.article__footer-inner {
+    height: 50px;
+    width: 260px;
+    background: white;
+    margin: 0 auto;
+}
+
+.article__footer_imgIn img {
+    top: 2px;
 }
 
 .article-short .article__title {
