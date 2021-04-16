@@ -1975,7 +1975,7 @@ html,body {
 
 .article__footer-inner {
     height: 50px;
-    width: 260px;
+    width: 300px;
     background: white;
     margin: 0 auto;
 }
@@ -1988,7 +1988,7 @@ html,body {
     /*background: url("../images/blocks/news/news-title.png") center center no-repeat;*/
     height: 518px;
     background-size: cover;
-    padding-top: 325px;
+    padding-top: 275px;
 }
 
 .article-withoutBG .article__title {
@@ -2219,7 +2219,7 @@ article ul {
 
     .article-short .article__title {
         height: 300px;
-        padding-top: 140px;
+        padding-top: 130px;
     }
 
     .article__footer {
