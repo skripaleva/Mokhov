@@ -2137,10 +2137,6 @@ article ul {
     .img__btn--right {
         right: 13px;
     }
-
-    .img__btn {
-        bottom: 70px;
-    }
 }
 
 @media (max-width: 550px) {
@@ -2205,6 +2201,11 @@ article ul {
 
     .article__text-img {
         height: 150px;
+    }
+
+
+    .img__btn {
+        bottom: 70px;
     }
 }
 
