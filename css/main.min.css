@@ -1923,6 +1923,12 @@ html,body {
     transition: 0.3s;
 }
 
+.article-withoutBG .article__scroll {
+    background: url("../images/blocks/news/scroll-dark.svg") center top no-repeat;
+    width: 22px;
+    height: 21px;
+}
+
 .article__text {
     position: relative;
     padding: 0 80px;
@@ -1994,7 +2000,7 @@ html,body {
 .article-withoutBG .article__title {
     background: none;
     padding-top: 6px;
-    height: 210px;
+    height: 250px;
 }
 
 .article-withoutBG h1, .article-withoutBG time {
@@ -2130,6 +2136,10 @@ article ul {
         margin: 0 15px 0 5px;
     }
 
+    .article-withoutBG .article__title {
+        height: 210px;
+    }
+
     .img__btn--left {
         left: 18px;
     }
@@ -2227,7 +2237,7 @@ article ul {
     }
 
     .article-withoutBG .article__title {
-        height: 140px;
+        height: 170px;
     }
 }
 
