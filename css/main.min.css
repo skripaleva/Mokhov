@@ -1975,20 +1975,21 @@ html,body {
 
 .article__footer img {
     position: relative;
-    top: -10px;
+    top: 2px;
     cursor: pointer;
+    padding: 2px;
 }
 
 .article__footer-inner {
     height: 50px;
-    width: 300px;
+    width: 330px;
     background: white;
     margin: 0 auto;
 }
 
-.article__footer_imgIn img {
-    top: 2px;
-}
+/*.article__footer_imgIn img {*/
+/*    top: 2px;*/
+/*}*/
 
 .article-short .article__title {
     /*background: url("../images/blocks/news/news-title.png") center center no-repeat;*/
@@ -2239,6 +2240,20 @@ article ul {
     .article-withoutBG .article__title {
         height: 170px;
     }
+}
+
+@media (max-width: 360px) {
+    .article__footer {
+        background: none;
+    }
+
+    /*.article__footer img {*/
+    /*    padding: 1px;*/
+    /*}*/
+
+    /*.article__footer-inner {*/
+    /*    width: 320px;*/
+    /*}*/
 }
 
 /*.events {*/
