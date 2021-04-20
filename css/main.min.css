@@ -258,7 +258,6 @@ html,body {
     padding-bottom: 10px;
 }
 
-
 .biography {
     padding: 0 20px 0 40px;
 }
@@ -350,7 +349,6 @@ html,body {
 
 .events__btn {
     position: absolute;
-    /*top: 100px;*/
     width: 15px;
     height: 15px;
     border: none;
@@ -1328,7 +1326,6 @@ html,body {
     padding: 4px;
 }
 
-
 .news__main a:nth-child(2n) .news__card:before {
     position: absolute;
     top: 0;
@@ -1343,12 +1340,6 @@ html,body {
     background-color: #f8f8f8;
     transition: 0.3s;
 }
-
-/*.news__card:hover:nth-child(5), .news__card:hover:nth-child(6) {*/
-/*    background-color: rgba(193,171,129,0.2);*/
-/*    transition: 0.3s;*/
-/*}*/
-
 
 .news__card:after {
     position: absolute;
@@ -1384,7 +1375,6 @@ html,body {
     color: #718096;
 }
 
-
 @media (max-width: 900px) {
     .about__header {
         font-size: 32px;
@@ -1397,7 +1387,6 @@ html,body {
     .about__section__posts>li {
         font-size: 12px;
     }
-
 
     .rf-osteopathy__article__header h2, .rf-osteopathy__links__header h2 {
         font-size: 20px;
@@ -1877,7 +1866,6 @@ html,body {
     margin: 0 auto;
     max-width: 960px;
     margin-bottom: 50px;
-    /*min-width: 320px;*/
 }
 
 .article__title {
@@ -1987,12 +1975,7 @@ html,body {
     margin: 0 auto;
 }
 
-/*.article__footer_imgIn img {*/
-/*    top: 2px;*/
-/*}*/
-
 .article-short .article__title {
-    /*background: url("../images/blocks/news/news-title.png") center center no-repeat;*/
     height: 518px;
     background-size: cover;
     padding-top: 275px;
@@ -2026,8 +2009,6 @@ article ul {
 }
 
 .article__text-images {
-    /*margin: 0 auto;*/
-    /*text-align: center;*/
     max-width: 960px;
     overflow: hidden;
 }
@@ -2037,17 +2018,6 @@ article ul {
     height: 200px;
     padding: 0 5px;
 }
-
-/*.article__text-img2 {*/
-/*    width: 149px;*/
-/*    height: 204px;*/
-/*    margin: 0 5px;*/
-/*}*/
-
-/*.article__text-imgBig {*/
-/*    width: 563px;*/
-/*    height: 403px;*/
-/*}*/
 
 .img__btn {
     position: absolute;
@@ -2106,11 +2076,6 @@ article ul {
         padding-right: 22px;
     }
 
-    /*.article__text-images img {*/
-    /*    height: 204px;*/
-    /*    width: auto;*/
-    /*}*/
-
     .article__title h1 {
         font: normal 500 32px/40px "Open Sans", sans-serif;
     }
@@ -2154,7 +2119,6 @@ article ul {
     .article__title {
         height: 350px;
         padding-top: 180px;
-        /*padding-top: 260px;*/
     }
 
     .article__title h1 {
@@ -2166,10 +2130,6 @@ article ul {
 
     .article__title time {
         font: normal 700 15px/20px "Open Sans", sans-serif;
-    }
-
-    .article__scroll {
-        /*margin-top: 20px;*/
     }
 
     .article-short .article__title {
@@ -2193,7 +2153,6 @@ article ul {
     .article__title {
         height: 300px;
         padding-top: 130px;
-        /*padding-top: 260px;*/
     }
 
     .article-short .article__title {
@@ -2225,7 +2184,6 @@ article ul {
     .article__title {
         height: 250px;
         padding-top: 80px;
-        /*padding-top: 260px;*/
     }
 
     .article-short .article__title {
@@ -2246,37 +2204,4 @@ article ul {
     .article__footer {
         background: none;
     }
-
-    /*.article__footer img {*/
-    /*    padding: 1px;*/
-    /*}*/
-
-    /*.article__footer-inner {*/
-    /*    width: 320px;*/
-    /*}*/
 }
-
-/*.events {*/
-/*    display: block;*/
-/*    box-sizing: border-box;*/
-/*    max-width: 960px;*/
-/*    position: relative;*/
-/*    margin: 0 auto;*/
-/*    padding: 0 60px;*/
-/*}*/
-
-/*.events--without-padding {*/
-/*    padding: 0 !important;*/
-/*}*/
-
-/*.events__header {*/
-/*    margin-top: 65px;*/
-/*    padding-bottom: 10px;*/
-/*    font: normal 24px/28px "Fontatigo 4F", sans-serif;*/
-/*    color: #80705d;*/
-/*    text-align: center;*/
-/*}*/
-
-
-
-
